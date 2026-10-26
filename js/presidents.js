@@ -735,7 +735,7 @@ var PRESIDENTS = [
         summary: "O Banco Nacional de Desenvolvimento Econômico emprestou ao grupo têxtil Lutfalla, ligado à família do sogro de Paulo Maluf, apesar do risco de calote. Reportagens da época falaram em ordem superior para liberar o crédito. Uma CPI foi instalada em 1980. O STF arquivou o caso sem punição dos envolvidos. Não há sentença contra Geisel.",
         involved: "Grupo Lutfalla; Paulo Maluf, então figura política de São Paulo; o ministro do Planejamento João Paulo dos Reis Velloso é citado em relatos do caso. Geisel era o presidente quando o escândalo veio a público.",
         amount: "O empréstimo é descrito como vultoso para uma empresa à beira da falência. Não há valor de condenação, porque não houve condenação.",
-        legal: "Arquivado pelo Supremo sem punição dos acusados.",
+        legal: "O STF arquivou o inquérito sem punir os acusados. O arquivamento encerrou a apuração; as fontes desta ficha não registram sentença de mérito nem o motivo processual além do arquivamento.",
         sources: [
           { name: "Wikipedia — Caso Lutfalla", url: "https://pt.wikipedia.org/wiki/Caso_Lutfalla" }
         ]
@@ -785,7 +785,7 @@ var PRESIDENTS = [
         summary: "O grupo do empresário Assis Paim Cunha quebrou em 1983 depois de emitir letras de câmbio sem lastro. O MPF acusou os ministros Delfim Netto e Ernane Galvêas de articular empréstimo da Caixa para tapar o buraco. O STF não recebeu a denúncia de peculato contra os ministros. Paim Cunha foi condenado em 1998 a 8 anos e 3 meses por gestão fraudulenta. O prejuízo aos investidores foi estimado, à época da sentença, em cerca de R$ 300 milhões em valor atualizado pelo jornal.",
         involved: "Assis Paim Cunha; ministros Antônio Delfim Netto e Ernane Galvêas, acusados e não denunciados pelo STF. Figueiredo não foi réu.",
         amount: "A Folha, em 1998, citou lesão da ordem de Cr$ 231 bilhões, atualizados então para cerca de R$ 300 milhões, e cerca de 34 mil investidores atingidos.",
-        legal: "Paim Cunha condenado em primeira instância em 1998 por gestão fraudulenta. Denúncia contra os ex-ministros não recebida pelo STF. Sem condenação do presidente.",
+        legal: "Paim Cunha condenado em primeira instância em 1998 por gestão fraudulenta. A denúncia de peculato contra Delfim Netto e Ernane Galvêas não foi recebida pelo STF: a acusação não passou da admissibilidade e não houve instrução contra eles. Sem condenação do presidente.",
         sources: [
           { name: "Folha — condenação de Paim Cunha em 1998", url: "https://www1.folha.uol.com.br/fsp/dinheiro/fi01109824.htm" },
           { name: "Wikipedia — Escândalo Coroa-Brastel", url: "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_Coroa-Brastel" }
@@ -866,10 +866,10 @@ var PRESIDENTS = [
         statusLabel: "Impeachment político · absolvido na AP 307",
         years: "1990–1994",
         targetsPresident: true,
-        summary: "PC Farias, tesoureiro da campanha, foi acusado de cobrar empresários e circular o dinheiro em empresas de fachada, laranjas e contas no exterior. A acusação ligava esse caixa a gastos da Casa da Dinda. O Congresso cassou Collor por crime de responsabilidade. Em dezembro de 1994, na Ação Penal 307, o STF o absolveu de corrupção passiva por falta de provas. PC Farias foi morto em 1996, com processos ainda abertos.",
+        summary: "A CPI do PC ouviu empreiteiros e doleiros. O padrão descrito era pagamento a Paulo César Farias, tesoureiro da campanha, para ter acesso a decisões do governo. O dinheiro, segundo a investigação, circulava em empresas sem lastro, contas de terceiros e depósitos no exterior. A acusação ligava esse caixa a gastos da Casa da Dinda; o Fiat Elba em nome de uma secretária virou a peça pública mais citada. A Câmara autorizou o impeachment em setembro de 1992 e o Senado concluiu a perda do cargo e oito anos de inelegibilidade mesmo depois da renúncia — sanção política, não pena criminal. Na Ação Penal 307, em dezembro de 1994, o STF absolveu Collor de corrupção passiva porque a maioria não viu prova de que ele recebeu a vantagem. PC Farias foi morto em 1996, com processos ainda abertos. A absolvição é por falta de provas naquele processo, não um apagamento do impeachment nem da condenação posterior, já como senador, na AP 1025.",
         involved: "Paulo César Farias; empresários ouvidos na CPI; pessoas do entorno da Casa da Dinda, na narrativa da acusação. Collor era o acusado na AP 307.",
         amount: "A CPI descreveu um circuito de fachada e de contas no exterior. Não há valor de condenação contra Collor, porque a sentença penal foi absolutória. Estimativas da imprensa não substituem esse resultado.",
-        legal: "Sanção política: perda do cargo e oito anos de inelegibilidade (1992). Sanção penal da AP 307: absolvição por falta de provas (1994). As duas valem, cada uma no seu terreno.",
+        legal: "Sanção política em 1992: perda do cargo e oito anos de inelegibilidade. Na AP 307, em 1994, o STF absolveu Collor de corrupção passiva porque a maioria não viu prova de que ele recebeu a vantagem. O motivo da absolvição é falta de provas, não anulação do processo.",
         sources: [
           { name: "STF — absolvição em 1994 no caso PC Farias", url: "https://noticias.stf.jus.br/postsnoticias/conheca-alguns-julgamentos-historicos-que-marcaram-os-ultimos-50-anos-do-stf/" },
           { name: "Wikipedia — Impeachment de Fernando Collor", url: "https://pt.wikipedia.org/wiki/Impeachment_de_Fernando_Collor" },
@@ -922,7 +922,7 @@ var PRESIDENTS = [
         summary: "Parlamentares da comissão mista de orçamento direcionavam emendas a empreiteiras e entidades, com comissão de volta. João Alves e Genebaldo Correia estão entre os nomes centrais. Houve cassação e renúncia. Muitos processos penais prescreveram. Itamar não foi acusado de chefiar o esquema.",
         involved: "Deputados e senadores de mais de um partido, empreiteiras e entidades beneficiadas pelas emendas. O presidente ficou fora da lista de condenados.",
         amount: "Não há um total único fechado em sentença. A CPI documentou emendas e comissões caso a caso.",
-        legal: "Sanções políticas no Congresso. Prescrição penal em boa parte dos casos. Sem condenação de Itamar Franco.",
+        legal: "Cassação e renúncia no Congresso são sanção política. Em boa parte dos processos penais a punição prescreveu: o prazo para uma condenação definitiva se esgotou antes do trânsito em julgado. Prescrição não declara inocência. Sem condenação de Itamar Franco.",
         sources: [
           { name: "Wikipedia — Anões do Orçamento", url: "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_dos_An%C3%B5es_do_Or%C3%A7amento" },
           { name: "Wikipedia — Itamar Franco", url: "https://pt.wikipedia.org/wiki/Itamar_Franco" }
@@ -1005,7 +1005,7 @@ var PRESIDENTS = [
         summary: "Às vésperas da desvalorização de janeiro de 1999, o Banco Central vendeu dólares a dois bancos que tinham apostado na estabilidade do câmbio. A sentença de 2005 falou em prejuízo de cerca de R$ 1,5 bilhão. Francisco Lopes, presidente do BC, foi condenado a 10 anos por peculato; a pena depois foi reduzida para 4 anos. Em 2016 a própria juíza declarou a prescrição: ninguém daquele grupo cumpriu a pena, exceto o banqueiro Salvatore Cacciola, preso por ter fugido. O TCU, em trilha administrativa separada, condenou ex-diretores a ressarcir bilhões. FHC não foi réu.",
         involved: "Francisco Lopes e outros diretores do Banco Central; Salvatore Cacciola (Marka); controladores do FonteCindam.",
         amount: "Cerca de R$ 1,5 bilhão de prejuízo ao erário, na sentença de 2005. O TCU falou depois em ressarcimento corrigido superior a R$ 3,7 bilhões numa das fases, com recurso à época.",
-        legal: "Condenação criminal de 2005, pena reduzida, prescrição reconhecida em 2016 sem cumprimento por Lopes e pelos diretores. Cacciola chegou a ser preso. Sem condenação de FHC. A trilha do TCU é administrativa e distinta da prescrição penal.",
+        legal: "Condenação criminal de 2005. A pena de Francisco Lopes foi reduzida para 4 anos e, em 2016, a juíza reconheceu a prescrição da pretensão punitiva: com a pena menor, o prazo para punir se esgotou antes do trânsito em julgado. Prescrição não é absolvição. Cacciola chegou a ser preso. Sem condenação de FHC. A trilha do TCU é administrativa e distinta.",
         sources: [
           { name: "Folha — condenação em 2005", url: "https://www1.folha.uol.com.br/fsp/brasil/fc0504200502.htm" },
           { name: "G1 — prescrição em 2016", url: "https://g1.globo.com/rio-de-janeiro/noticia/2016/10/caso-marka-fontecidam-e-encerrado-apos-prescricao-sem-condenacoes.html" },
@@ -1054,10 +1054,10 @@ var PRESIDENTS = [
         statusLabel: "Aliados condenados · Lula não foi réu",
         years: "2003–2005 · julgamento 2012–2014",
         targetsPresident: false,
-        summary: "Roberto Jefferson revelou pagamentos mensais a deputados. O Supremo, na AP 470, reconstituiu um circuito de cerca de R$ 110 milhões, em valores da época: publicidade do Banco do Brasil e da Câmara, empréstimos simulados e o operador Marcos Valério. José Dirceu foi condenado por corrupção ativa. Em 2014, a formação de quadrilha de oito réus, entre eles Dirceu, Genoino, Delúbio e Valério, foi afastada. A corrupção permaneceu. Lula não estava na denúncia.",
-        involved: "José Dirceu, José Genoino, Delúbio Soares, Marcos Valério, Henrique Pizzolato, diretores do Banco Rural e deputados de PP, PL, PTB, PMDB e outros. Lula não foi acusado nesta ação.",
+        summary: "Roberto Jefferson, do PTB, revelou pagamentos mensais a deputados da base. O procurador-geral denunciou o núcleo do governo e do PT, não Lula: a AP 470 não tem o presidente como réu. O STF reconstituiu um circuito de cerca de R$ 110 milhões, em valores da época, com publicidade do Banco do Brasil e da Câmara, empréstimos simulados do Banco Rural e do BMG e o operador Marcos Valério. José Dirceu, ministro da Casa Civil, foi condenado por corrupção ativa (pena inicial somada de 10 anos e 10 meses; em 2014 os embargos infringentes afastaram só a formação de quadrilha, porque já havia votos bastantes pela absolvição desse crime, e a corrupção ficou). Delúbio Soares, tesoureiro do PT, e José Genoino, presidente do partido, foram condenados por corrupção no mesmo julgamento; a quadrilha também caiu para eles em 2014. São condenações do círculo político do governo, vigentes quanto à corrupção, e não uma sentença contra Lula.",
+        involved: "José Dirceu (Casa Civil), José Genoino (presidência do PT), Delúbio Soares (tesouraria do PT), Marcos Valério, Henrique Pizzolato, diretores do Banco Rural e deputados de PP, PL, PTB, PMDB e outros. Lula não foi acusado nesta ação.",
         amount: "Cerca de R$ 110 milhões, em valores da época, na descrição feita no julgamento do STF. A pena inicial de Dirceu, antes dos embargos, somava 10 anos e 10 meses e multa de cerca de R$ 676 mil.",
-        legal: "Condenações do STF por corrupção vigentes contra o núcleo político e operadores, com cumprimento de pena. Formação de quadrilha afastada para oito réus em 2014. Nenhuma sentença da AP 470 contra Lula.",
+        legal: "Condenações do STF por corrupção vigentes contra o núcleo político e operadores, com cumprimento de pena. Em 2014 os embargos infringentes afastaram só a formação de quadrilha de oito réus, porque já havia votos bastantes pela absolvição desse crime. Corrupção ativa e passiva permaneceram. Nenhuma sentença da AP 470 contra Lula.",
         sources: [
           { name: "STF — peça do julgamento cita cerca de R$ 110 milhões", url: "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/itemVIap470mAB.pdf" },
           { name: "Câmara — embargos de 2014", url: "https://www.camara.leg.br/tv/427795-stf-absolve-oito-condenados-do-mensalao-do-crime-de-formacao-de-quadrilha/" },
@@ -1075,7 +1075,7 @@ var PRESIDENTS = [
         summary: "A família Vedoin vendia ambulâncias superfaturadas a prefeituras indicadas por emendas. A PF estimou o esquema, no noticiário da operação, em cerca de R$ 110 milhões e citou mais de cem parlamentares de vários partidos. Houve cassações e penas contra operadores. Lula não foi denunciado.",
         involved: "Grupo Vedoin, assessores parlamentares e deputados de PT, PMDB, PP, PL, PSDB e outros. Sem o presidente na denúncia.",
         amount: "Cerca de R$ 110 milhões, estimativa da investigação repercutida à época. Não é a soma das penas.",
-        legal: "Condenações e cassações parciais. Muitos parlamentares da lista não foram condenados. Sem condenação de Lula.",
+        legal: "Condenações e cassações parciais. Onde o processo prescreveu, o prazo penal se esgotou antes de condenação definitiva. Onde houve absolvição, o juiz rejeitou a acusação. Muitos nomes da lista não foram condenados. Sem condenação de Lula.",
         sources: [
           { name: "Wikipedia — Sanguessugas", url: "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_dos_sanguessugas" }
         ]
@@ -1095,8 +1095,8 @@ var PRESIDENTS = [
     accessDetail: "Reeleito em 2006 e empossado para o segundo mandato em 2007.",
     exit: "Fim do mandato",
     exitDetail: "Transmitiu o cargo a Dilma Rousseff em 1º de janeiro de 2011, com aprovação alta e com o esquema da Petrobras ainda não revelado.",
-    card: "Contratos da Petrobras que a Lava Jato descreveu. As condenações pessoais de Lula foram anuladas em 2021 e não voltaram a um julgamento de mérito.",
-    summary: "O cartel da Petrobras atravessa este mandato e o anterior, e só se torna escândalo público em 2014. As ações penais contra Lula — tríplex do Guarujá, sítio de Atibaia e Instituto Lula — saíram dessa investigação. Ele foi condenado, preso por 580 dias e teve as condenações anuladas pelo STF em 2021, por incompetência de Curitiba e por suspeição do juiz Sergio Moro. Anulação não é absolvição de mérito. Os processos, reabertos em Brasília, prescreveram, foram rejeitados ou encerrados. Em setembro de 2025 a Folha registrou que não havia ação ativa da Lava Jato contra ele.",
+    card: "Tríplex, sítio e Instituto Lula: condenações e denúncias da Lava Jato, anuladas em 2021 sem novo mérito.",
+    summary: "O cartel da Petrobras atravessa este mandato e o anterior. As ações contra Lula nasceram dessa investigação: o MPF o acusou de receber o tríplex do Guarujá, reformas no sítio de Atibaia e vantagens no Instituto Lula, com base em delações de Léo Pinheiro, Palocci e Marcelo Odebrecht e em documentos das empreiteiras. Moro e, no sítio, Gabriela Hardt condenaram; o TRF-4 aumentou as penas; o STJ confirmou o tríplex. Ele ficou preso 580 dias. Em 2021 o STF anulou esses processos por incompetência da 13ª Vara de Curitiba e por suspeição de Moro. A anulação é processual: o mérito não foi rejulgado. No Distrito Federal o tríplex prescreveu e o sítio foi rejeitado. Em setembro de 2025 a Folha registrou que não havia ação ativa da Lava Jato contra ele.",
     cases: [
       {
         id: "petrolao",
@@ -1106,31 +1106,73 @@ var PRESIDENTS = [
         statusLabel: "Esquema condenado em parte · muitas penas depois anuladas",
         years: "contratos 2004–2014",
         targetsPresident: false,
-        summary: "Um cartel de empreiteiras combinava licitações da Petrobras e pagava propina de cerca de 1% a 3% a diretores e operadores políticos. O balanço da estatal usou 3% como média e reconheceu perda de R$ 6,2 bilhões. A lavagem passava por doleiros como Alberto Youssef, contratos fictícios, offshores e, no caso da Odebrecht, por um departamento interno de propina e por doações eleitorais oficiais. PT, PP, PMDB e outros partidos aparecem nas delações — não um partido só. Boa parte das condenações da força-tarefa de Curitiba foi depois anulada pelo STF.",
-        involved: "Empreiteiras do cartel; diretores Paulo Roberto Costa, Renato Duque, Nestor Cerveró e Jorge Zelada; doleiro Alberto Youssef; partidos que indicavam diretorias.",
+        summary: "O MPF descreveu um cartel de empreiteiras que combinava licitações da Petrobras e pagava propina de cerca de 1% a 3% a diretores e a operadores políticos. O balanço da estatal usou 3% como média contábil e reconheceu perda de R$ 6,2 bilhões em contratos de 2004 a 2012. A lavagem, nas delações e denúncias, passava por doleiros como Alberto Youssef, contratos fictícios, contas no exterior e, na Odebrecht, por um departamento interno de propina e por doações eleitorais oficiais. PT, PP e PMDB/MDB aparecem como destinatários indicados, não um partido só. João Vaccari Neto, tesoureiro do PT no período, foi condenado em Curitiba por corrupção passiva num núcleo de propina da Sete Brasil e da Petrobras (pena de 10 anos, elevada pelo TRF-4 para 24 anos). Essa condenação foi depois anulada: em 2024 Fachin reconheceu a incompetência da 13ª Vara e mandou o caso à Justiça Eleitoral; em 2025 Dias Toffoli anulou os atos da Lava Jato contra Vaccari. Anulação não rejulga se o fato ocorreu. Lula não é o condenado deste mapa.",
+        involved: "Empreiteiras do cartel; diretores Paulo Roberto Costa, Renato Duque, Nestor Cerveró e Jorge Zelada; doleiro Alberto Youssef; tesoureiros e operadores partidários, entre eles João Vaccari Neto (PT). Lula não foi o réu destas condenações de diretores e tesoureiros.",
         amount: "R$ 6,2 bilhões de baixa contábil da Petrobras (estimativa de 3% sobre contratos de 2004 a 2012). Odebrecht admitiu US$ 788 milhões em propina em 12 países, entre 2001 e 2016, não só no Brasil e não só na Petrobras.",
-        legal: "Houve condenações e delações. A partir de 2021 o STF anulou séries inteiras de processos por incompetência territorial, suspeição de magistrado e nulidade de provas. O mapa do esquema descreve o que denúncia e leniência registraram; não lista penas ainda vigentes.",
+        legal: "Houve condenações e delações. A partir de 2021 o STF anulou séries de processos da 13ª Vara Federal de Curitiba: a vara foi declarada incompetente para o fato (incompetência territorial), juízes foram declarados suspeitos e, em alguns autos, a prova foi anulada. Anulação desfaz a sentença; não é absolvição de mérito. O mapa descreve denúncia e leniência, não penas vigentes.",
         sources: [
           { name: "G1 — baixa de R$ 6,2 bi no balanço", url: "https://g1.globo.com/economia/negocios/noticia/2015/04/petrobras-divulga-balanco-auditado-com-prejuizo-de-r-216-bi-em-2014.html" },
           { name: "G1 — Odebrecht admite US$ 788 milhões", url: "https://g1.globo.com/politica/noticia/odebrecht-admite-us-788-milhoes-em-propina-em-12-paises-dizem-eua.ghtml" },
+          { name: "STF — plenário confirma a anulação das condenações de Lula, 2021", url: "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/" },
+          { name: "G1 — Fachin anula condenação de Vaccari, 2024", url: "https://g1.globo.com/politica/noticia/2024/01/10/fachin-anula-condenacao-do-ex-tesoureiro-do-pt-joao-vaccari-neto-pela-lava-jato.ghtml" },
+          { name: "G1 — Toffoli anula os atos da Lava Jato contra Vaccari, 2025", url: "https://g1.globo.com/politica/noticia/2025/08/15/toffoli-anula-todos-os-atos-da-lava-jato-contra-o-ex-tesoureiro-do-pt-joao-vaccari-netto.ghtml" },
           { name: "Wikipedia — Operação Lava Jato", url: "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato" }
         ]
       },
       {
-        id: "triplex-atibaia",
-        title: "Tríplex, sítio de Atibaia e Instituto Lula",
+        id: "triplex",
+        title: "Tríplex do Guarujá",
         status: "anulado",
-        statusLabel: "Condenações anuladas · sem novo mérito",
-        years: "processos 2016–2021 · encerrados depois",
+        statusLabel: "Condenação anulada · prescrição depois · sem novo mérito",
+        years: "sentença 2017 · anulação 2021 · prescrição no DF",
         targetsPresident: true,
-        summary: "O MPF acusou Lula de receber vantagens da OAS e da Odebrecht: um tríplex no Guarujá, reformas num sítio em Atibaia e a sede e doações do Instituto Lula. Sergio Moro condenou Lula no tríplex em 2017 e no sítio em 2018. O TRF-4 confirmou. Lula ficou preso de 7 de abril de 2018 a 8 de novembro de 2019. Em 8 de março de 2021, Edson Fachin anulou as ações porque Curitiba era incompetente; o plenário confirmou por 8 a 3 em 15 de abril. Em 23 de março de 2021 a Segunda Turma declarou Moro suspeito no tríplex, por 3 a 2. Em Brasília, o tríplex prescreveu e a denúncia do sítio foi rejeitada. O TRF-1, em julho de 2025, manteve o sítio encerrado. A Folha, em setembro de 2025, registrou que não havia mais processo ativo da Lava Jato contra Lula. Houve absolvição em casos menores, entre eles um desdobramento da Zelotes, a pedido do próprio MPF.",
-        involved: "Luiz Inácio Lula da Silva; empreiteiras OAS e Odebrecht; executivos que delataram; o ex-juiz Sergio Moro e a força-tarefa de Curitiba, cuja atuação foi depois invalidada.",
-        amount: "A acusação do tríplex trabalhou com o valor do imóvel e das reformas. Uma reparação citada em instância superior, antes da anulação, foi de R$ 2,42 milhões no tríplex. No sítio, as reformas atribuídas a empreiteiras ficaram na casa de R$ 1 milhão. O Instituto Lula foi acusado de receber terreno e doações de cerca de R$ 12 milhões e R$ 4 milhões. Nada disso sobreviveu como condenação.",
-        legal: "Condenações anuladas em 2021. Não houve novo julgamento de mérito. O desfecho posterior foi prescrição, rejeição da denúncia ou encerramento por prova ilícita — não uma sentença escrita de inocência nos dois casos principais. Absolvição houve em ações menores e separadas.",
+        summary: "O MPF acusou Lula de receber propina da OAS, ligada a contratos da empreiteira com a Petrobras, na forma de um tríplex no Edifício Solaris, no Guarujá, reservado e reformado para ele e para Marisa Letícia. A prova apresentada pela acusação foi documental e oral: contratos e reformas da OAS e o depoimento de José Aldemário Pinheiro Filho, o Léo Pinheiro, presidente da OAS, que disse em delação e em juízo que o imóvel era destinado a Lula. A defesa negou a propriedade e tratou o depoimento como relato de quem negociava benefício penal. Em 12 de julho de 2017 Sergio Moro, na 13ª Vara Federal de Curitiba, condenou Lula a 9 anos e 6 meses por corrupção passiva e lavagem. Em 24 de janeiro de 2018 a 8ª Turma do TRF-4 confirmou por unanimidade e aumentou a pena para 12 anos e 1 mês; o relator João Pedro Gebran Neto escreveu que a prova corroborava a versão de que o apartamento e as reformas eram propina. Em 23 de abril de 2019 a Quinta Turma do STJ manteve a condenação e reduziu a pena para 8 anos, 10 meses e 20 dias, e a reparação de R$ 16 milhões para R$ 2,4 milhões, por dosimetria. Lula ficou preso de 7 de abril de 2018 a 8 de novembro de 2019. Em 8 de março de 2021, no HC 193726, Fachin anulou a ação porque a 13ª Vara não tinha competência territorial; o plenário confirmou por 8 a 3 em 15 de abril. Em 23 de março de 2021 a Segunda Turma, por 3 a 2, declarou Moro suspeito no tríplex (Gilmar Mendes, Lewandowski e Cármen Lúcia); o plenário manteve a suspeição em junho de 2021 e anulou as provas daquele processo. A defesa usou, entre outros elementos, as mensagens da Vaza Jato, publicadas pelo Intercept em junho de 2019 a partir de invasão dos celulares de procuradores (Operação Spoofing): o material mostrava conversas entre Moro e Deltan Dallagnol e foi tratado pela acusação como prova ilícita e pela defesa como indício de parcialidade. A anulação é processual. O mérito — se o tríplex foi propina — não foi julgado de novo. No Distrito Federal o caso prescreveu: o prazo para punir se esgotou, ainda menor porque Lula tem mais de 70 anos. Prescrição não é absolvição.",
+        involved: "Luiz Inácio Lula da Silva, acusado; OAS e Léo Pinheiro, depoente e réu; Agenor Franklin Magalhães Medeiros, da OAS; Sergio Moro, juiz da sentença depois anulada; força-tarefa do MPF em Curitiba.",
+        amount: "A reparação fixada pelo STJ em 2019, antes da anulação, foi de R$ 2,4 milhões. O TRF-4 tinha elevado esse valor a R$ 16 milhões. Nenhum desses números sobrevive como condenação.",
+        legal: "Condenação de 2017, confirmada pelo TRF-4 em 2018 e pelo STJ em 2019, anulada em 2021 por incompetência territorial da 13ª Vara (HC 193726, plenário 8 a 3) e, em fundamento próprio, por suspeição de Moro (Segunda Turma, 3 a 2, mantida pelo plenário). As provas do tríplex foram anuladas e não puderam ser reaproveitadas. No DF o processo prescreveu sem novo julgamento de mérito.",
         sources: [
-          { name: "STF — plenário confirma a anulação em 2021", url: "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/" },
-          { name: "Folha — situação dos processos em setembro de 2025", url: "https://www1.folha.uol.com.br/poder/2025/09/veja-o-que-aconteceu-com-os-processos-contra-o-presidente-lula.shtml" },
+          { name: "G1 — sentença de Moro, 12 de julho de 2017", url: "https://g1.globo.com/politica/noticia/a-sentenca-da-condenacao-de-lula.ghtml" },
+          { name: "TRF-4 — pena elevada a 12 anos e 1 mês, 24 de janeiro de 2018", url: "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=18776" },
+          { name: "STJ — pena reduzida a 8 anos, 10 meses e 20 dias", url: "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Quinta-Turma-reduz-pena-do-ex-presidente-Lula-para-oito-anos-e-dez-meses.aspx" },
+          { name: "G1 — Segunda Turma declara Moro parcial, 23 de março de 2021", url: "https://g1.globo.com/politica/noticia/2021/03/23/carmen-lucia-muda-voto-e-2a-turma-do-stf-declara-que-moro-foi-parcial-ao-condenar-lula.ghtml" },
+          { name: "STF — plenário mantém a suspeição no tríplex", url: "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/" },
+          { name: "STF — plenário confirma a incompetência de Curitiba", url: "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261" }
+        ]
+      },
+      {
+        id: "atibaia",
+        title: "Sítio de Atibaia",
+        status: "anulado",
+        statusLabel: "Condenação anulada · denúncia rejeitada depois",
+        years: "sentença 2019 · anulação 2021 · TRF-1 em 2025",
+        targetsPresident: true,
+        summary: "O MPF acusou Lula de receber reformas e benfeitorias num sítio em Atibaia, formalizado em nome de Fernando Bittar, pagas pela Odebrecht e pela OAS como propina de contratos com a Petrobras. A acusação apontou visitas da família, o acervo pessoal levado ao imóvel e lançamentos nos sistemas internos da Odebrecht. A defesa disse que o sítio não era de Lula e que as obras tinham outra explicação. Em 6 de fevereiro de 2019 a juíza substituta Gabriela Hardt, na 13ª Vara de Curitiba, condenou Lula a 12 anos e 11 meses por corrupção passiva e lavagem. Em 27 de novembro de 2019 a 8ª Turma do TRF-4 confirmou por unanimidade e aumentou a pena para 17 anos, 1 mês e 10 dias; o relator Gebran Neto atendeu o MPF no agravante de o crime ter sido imputado a quem era presidente. Fachin anulou essa ação no mesmo HC 193726, por incompetência territorial de Curitiba, confirmada pelo plenário. Gilmar Mendes estendeu ao sítio o efeito da suspeição de Moro declarada no tríplex. A denúncia, já no Distrito Federal, foi rejeitada. Em julho de 2025 o TRF-1 recusou o recurso do MPF e manteve o caso encerrado. Rejeição e anulação não são uma sentença que diga que a reforma não existiu ou que não foi paga pelas empreiteiras. Esse fato não voltou a ser julgado no mérito.",
+        involved: "Luiz Inácio Lula da Silva; Odebrecht e OAS, apontadas como pagadoras das obras; Fernando Bittar, em cujo nome o imóvel estava; Gabriela Hardt, juíza da sentença de 2019.",
+        amount: "O TRF-4 descreveu, na dosimetria de 2019, parcelas como R$ 700 mil atribuídos à Odebrecht e US$ 170 mil atribuídos à OAS, além de outra fatia descrita como corrupção em favor do PT. São cifras da condenação depois anulada, não de uma pena vigente.",
+        legal: "Condenação de primeira e segunda instâncias anulada em 2021 por incompetência da 13ª Vara e, por extensão, pela suspeição de Moro. A denúncia foi rejeitada na Justiça do Distrito Federal. O TRF-1 manteve o encerramento em julho de 2025. Sem novo julgamento de mérito e sem absolvição que substitua a condenação anulada.",
+        sources: [
+          { name: "TRF-4 — pena do sítio elevada a 17 anos, 1 mês e 10 dias", url: "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=14914" },
+          { name: "G1 — julgamento do sítio no TRF-4, 27 de novembro de 2019", url: "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2019/11/27/relator-do-processo-sobre-sitio-de-atibaia-no-trf-4-vota-por-condenacao-de-lula-por-corrupcao-e-lavagem-de-dinheiro.ghtml" },
+          { name: "STF — incompetência de Curitiba alcança o sítio e o Instituto Lula", url: "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261" },
           { name: "Jornal de Brasília — TRF-1 mantém o sítio encerrado", url: "https://jornaldebrasilia.com.br/noticias/politica-e-poder/trf-1-rejeita-recurso-do-mpf-e-mantem-encerrada-acao-do-sitio-de-atibaia-contra-lula/" }
+        ]
+      },
+      {
+        id: "instituto-lula",
+        title: "Instituto Lula — terreno e doações",
+        status: "anulado",
+        statusLabel: "Denúncias anuladas · sem condenação",
+        years: "denúncias em Curitiba · anulação 2021",
+        targetsPresident: true,
+        summary: "Duas acusações do MPF não chegaram a condenação. Na primeira, a Odebrecht teria comprado um terreno de cerca de R$ 12 milhões em São Paulo para a sede do Instituto Lula, apresentado pela denúncia como propina; a empreiteira também foi acusada de comprar um apartamento em São Bernardo do Campo no mesmo prédio em que Lula morava. Na segunda, a Odebrecht teria feito quatro doações de R$ 1 milhão ao instituto, entre 2013 e 2014, e o MPF acusou Lula, Antonio Palocci e Paulo Okamotto de lavagem, com base na delação de Palocci. Palocci, ex-ministro da Fazenda e da Casa Civil, disse em delação que existia uma conta corrente de favores políticos em benefício de Lula. Marcelo Odebrecht, em depoimento de colaboração, associou o codinome “Amigo”, usado numa planilha interna de pagamentos da empreiteira, a Lula; a defesa contestou a identificação e o alcance de cada lançamento. São relatos de delatores, confrontados com documentos da própria Odebrecht, não uma sentença. Fachin anulou os atos de Curitiba nos dois casos, pelo mesmo motivo de incompetência territorial, e os autos foram ao Distrito Federal. Ricardo Lewandowski vedou, em 2021, o uso da leniência da Odebrecht na ação da sede. Não houve julgamento de mérito que confirmasse ou rejeitasse a acusação do terreno e das doações.",
+        involved: "Luiz Inácio Lula da Silva; Paulo Okamotto, do Instituto Lula; Antonio Palocci e Marcelo Odebrecht, como delatores; Odebrecht, como empresa acusada de pagar.",
+        amount: "Cerca de R$ 12 milhões, valor do terreno na denúncia da sede. Quatro doações de R$ 1 milhão na denúncia das contribuições ao instituto. Números da acusação, não de condenação.",
+        legal: "Não houve condenação. Os atos da 13ª Vara foram anulados em 2021 por incompetência territorial. Provas da leniência da Odebrecht foram vedadas na ação da sede. Sem novo julgamento de mérito.",
+        sources: [
+          { name: "BBC — as quatro ações anuladas por Fachin, entre elas as do Instituto Lula", url: "https://www.bbc.com/portuguese/brasil-56328403" },
+          { name: "G1 — Lewandowski veta a leniência da Odebrecht na ação da sede", url: "https://g1.globo.com/politica/noticia/2021/06/28/lewandowski-impede-uso-do-acordo-de-leniencia-da-odebrecht-contra-lula.ghtml" },
+          { name: "STF — incompetência de Curitiba, abril de 2021", url: "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261" },
+          { name: "Folha — situação dos processos em setembro de 2025", url: "https://www1.folha.uol.com.br/poder/2025/09/veja-o-que-aconteceu-com-os-processos-contra-o-presidente-lula.shtml" }
         ]
       }
     ]
@@ -1175,7 +1217,7 @@ var PRESIDENTS = [
         statusLabel: "Citada em delações · sem condenação",
         years: "2014",
         targetsPresident: false,
-        summary: "A operação começou em março de 2014 e passou a descrever um cartel que atuava desde o governo anterior. Delatores citaram o financiamento da política do PT e a tolerância com diretorias loteadas. Citação em delação não é condenação. Dilma não foi condenada criminalmente por corrupção na Petrobras.",
+        summary: "A operação começou em março de 2014, no governo Dilma, e passou a descrever um cartel que as denúncias datam desde o governo anterior. Delatores — entre eles Paulo Roberto Costa, Alberto Youssef e, depois, executivos da Odebrecht — citaram diretorias loteadas por partidos da base, propina de 1% a 3% e doações eleitorais. Dilma presidia o conselho da Petrobras antes da Presidência e era a chefe do governo quando a operação estourou. Citação em delação e responsabilidade política sobre a estatal não são condenação. Não há sentença penal de corrupção contra ela. As condenações de diretores e de operadores é que foram proferidas, e várias delas foram depois anuladas pelo STF por incompetência da 13ª Vara de Curitiba, suspeição de magistrado ou nulidade de prova.",
         involved: "Diretores da Petrobras, empreiteiras e a Presidência, como responsável política pela estatal. Sem sentença penal contra Dilma.",
         amount: "O mesmo R$ 6,2 bilhões de baixa contábil da Petrobras e os percentuais de 1% a 3% descritos nas delações. Nada disso foi cobrado de Dilma numa condenação.",
         legal: "Sem condenação criminal.",
@@ -1246,7 +1288,7 @@ var PRESIDENTS = [
         summary: "Delatores da J&F gravaram Temer e filmaram a entrega de R$ 500 mil a Rocha Loures. A acusação dizia que era propina. A Câmara rejeitou autorizar processos enquanto ele era presidente. Depois do mandato, o TRF-1 trancou a ação por falta de provas, sem julgamento de mérito, em 2021. O STJ manteve. Em 8 de maio de 2024, Edson Fachin recusou o recurso do MPF. Não há condenação.",
         involved: "Michel Temer; Rodrigo Rocha Loures; Joesley Batista e Ricardo Saud, da J&F/JBS.",
         amount: "R$ 500 mil na mala filmada. A acusação apresentava esse valor como parcela de um acerto maior, não como total sentenciado.",
-        legal: "Denunciado. Processo trancado por falta de justa causa. Sem condenação e sem absolvição de mérito depois de instrução completa. O efeito prático, em 2024, é não haver pena.",
+        legal: "O TRF-1 trancou a ação penal em 2021 por falta de provas de que o dinheiro da mala chegou a Temer — ausência de justa causa, não exame de mérito até o fim. O STJ manteve. Em maio de 2024 Fachin não admitiu o recurso do MPF porque o recurso extraordinário não reexamina prova. Sem condenação.",
         sources: [
           { name: "G1 — Fachin mantém o encerramento em 2024", url: "https://g1.globo.com/politica/noticia/2024/05/08/fachin-mantem-encerrada-investigacao-de-temer-no-caso-da-mala-de-r-500-mil.ghtml" },
           { name: "Wikipedia — Joesley Batista", url: "https://pt.wikipedia.org/wiki/Joesley_Batista" }
@@ -1262,7 +1304,7 @@ var PRESIDENTS = [
         summary: "A Lava Jato do Rio acusou Temer, então vice-presidente, de um esquema em contratos da Eletronuclear para Angra 3. Ele foi preso de 21 a 25 de março de 2019 por ordem do juiz Marcelo Bretas e solto. A denúncia criminal foi rejeitada por falta de provas, com trânsito em julgado referido na sentença cível. Em novembro de 2025, a juíza Cláudia Valéria Bastos Fernandes absolveu Temer, Moreira Franco e outros de improbidade, por ver só conjecturas.",
         involved: "Michel Temer; Moreira Franco; o almirante Othon Luiz Pinheiro da Silva; João Baptista Lima Filho, o coronel Lima; Engevix, na narrativa do MPF.",
         amount: "O MPF falou em ao menos R$ 1 milhão de propina e em desvios da ordem de milhões nos contratos de Angra 3. A sentença de 2025 diz que esse pagamento não foi provado.",
-        legal: "Absolvido na ação de improbidade em 2025. Denúncia penal rejeitada por ausência de provas. Sem condenação.",
+        legal: "A denúncia penal foi rejeitada por falta de provas do pagamento. Em novembro de 2025 a Justiça absolveu Temer de improbidade porque a acusação, no julgamento, ficou em conjecturas. Sem condenação.",
         sources: [
           { name: "O Globo — absolvição de improbidade em novembro de 2025", url: "https://oglobo.globo.com/politica/noticia/2025/11/27/justica-absolve-temer-e-moreira-franco-de-acusacao-de-improbidade-administrativa-na-eletronuclear.ghtml" },
           { name: "Gazeta do Povo — mesma sentença", url: "https://www.gazetadopovo.com.br/republica/justica-absolve-temer-em-acao-ligada-a-lava-jato-sobre-contratos-de-angra-3/" }
@@ -1311,10 +1353,10 @@ var PRESIDENTS = [
         statusLabel: "Denúncia rejeitada · sem mérito",
         years: "gabinete na Alerj · desfecho 2021–2022",
         targetsPresident: false,
-        summary: "O caso é anterior à Presidência e atinge o filho, então deputado estadual. O MP-RJ acusou Flávio Bolsonaro de organizar a devolução de salários de assessores, com Fabrício Queiroz no centro, e falou em cerca de R$ 6 milhões. O STJ anulou a tramitação por incompetência do juízo. O TJ-RJ rejeitou a denúncia em 2022. Não houve absolvição nem condenação de mérito. Jair Bolsonaro não foi condenado por rachadinha no gabinete de deputado federal.",
+        summary: "O caso é anterior à Presidência e atinge o filho, então deputado estadual. O MP-RJ acusou Flávio Bolsonaro de organizar a devolução de salários de assessores, com Fabrício Queiroz no centro, e falou em cerca de R$ 6 milhões. Em 2021 o STJ anulou provas e atos porque o juízo de primeira instância era incompetente — Flávio já tinha foro de senador — e porque a quebra de sigilo era inválida. Em maio de 2022 o TJ-RJ rejeitou a denúncia, sem mérito. Jair Bolsonaro não foi condenado por rachadinha no gabinete de deputado federal.",
         involved: "Flávio Bolsonaro; Fabrício Queiroz; assessores da Alerj. Jair Bolsonaro não é condenado neste processo.",
         amount: "Cerca de R$ 6 milhões na acusação do MP-RJ, dos quais ao menos R$ 2,7 milhões em dinheiro vivo. Números da denúncia, não de sentença.",
-        legal: "Provas anuladas (STJ, 2021). Denúncia rejeitada (TJ-RJ, 2022). Recursos negados no STF em 2025. Pedido de desarquivamento noticiado em setembro de 2026. Sem julgamento de mérito.",
+        legal: "Em 2021 o STJ anulou provas e atos da primeira instância: o juízo do Rio era incompetente, porque Flávio já tinha foro de senador, e a quebra de sigilo que sustentava a apuração foi invalidada. Em maio de 2022 o TJ-RJ rejeitou a denúncia, sem julgar se o fato ocorreu. Gilmar Mendes negou recursos em 2025. Sem mérito.",
         sources: [
           { name: "Gazeta de S. Paulo — síntese processual atualizada em 2026", url: "https://www.gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito/" },
           { name: "Wikipedia — Caso Queiroz", url: "https://pt.wikipedia.org/wiki/Caso_Queiroz" }
@@ -1412,10 +1454,10 @@ var PRESIDENTS = [
         statusLabel: "Anuladas em 2021 · sem processo ativo",
         years: "revisão 2021–2025",
         targetsPresident: true,
-        summary: "As condenações do tríplex e do sítio foram anuladas pelo STF em 2021, primeiro por incompetência da 13ª Vara de Curitiba, depois pela suspeição de Sergio Moro no caso do tríplex, estendida aos outros processos. Não houve novo júri de mérito. O tríplex prescreveu em Brasília, com o prazo reduzido porque Lula tem mais de 70 anos. O sítio teve a denúncia rejeitada, e o TRF-1 recusou reabrir o caso em julho de 2025. A Folha registrou em 12 de setembro de 2025 que não havia processo ativo da Lava Jato contra o presidente. Isso não é uma frase judicial de inocência. É o estado dos autos.",
+        summary: "As condenações do tríplex (Moro em 2017, TRF-4 em 2018, STJ em 2019) e do sítio (Gabriela Hardt em 2019, TRF-4 no mesmo ano) foram anuladas pelo STF em 2021. O motivo da anulação de Fachin, confirmado pelo plenário por 8 a 3, foi a incompetência territorial da 13ª Vara Federal de Curitiba. Em fundamento separado, a Segunda Turma declarou Moro suspeito no tríplex por 3 a 2, e o plenário manteve; a defesa invocava, entre outros elementos, as mensagens da Vaza Jato. As provas daquele processo foram anuladas e não foram julgadas de novo. As denúncias do Instituto Lula, baseadas na leniência da Odebrecht e na delação de Palocci, também saíram de Curitiba sem condenação. No DF o tríplex prescreveu, porque o prazo se esgotou, e a denúncia do sítio foi rejeitada; o TRF-1 manteve esse encerramento em julho de 2025. A Folha registrou em 12 de setembro de 2025 que não havia processo ativo da Lava Jato contra o presidente. Isso não é inocência declarada. O detalhe de cada prova está na ficha de 2007–2010.",
         involved: "Luiz Inácio Lula da Silva, como acusado nas ações anuladas; STF, como tribunal que anulou; Justiça Federal do Distrito Federal, que encerrou o que restou.",
         amount: "Os valores das acusações originais não se converteram em condenação vigente. Ver a ficha de 2007–2010.",
-        legal: "Anulação por incompetência e suspeição. Prescrição e rejeição de denúncia depois. Sem absolvição de mérito nos dois casos principais. Sem processo ativo, segundo o balanço da Folha em setembro de 2025.",
+        legal: "O STF anulou as condenações em 2021: incompetência territorial da 13ª Vara Federal de Curitiba (HC 193726, de Fachin, confirmado pelo plenário) e, à parte, suspeição de Moro no tríplex (Segunda Turma, 23 de março). No DF, o tríplex prescreveu porque o prazo se esgotou, e a denúncia do sítio foi rejeitada. Sem absolvição de mérito nos dois casos principais. Sem processo ativo, segundo a Folha em setembro de 2025.",
         sources: [
           { name: "STF — confirmação da anulação, abril de 2021", url: "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261" },
           { name: "Folha — o que aconteceu com os processos, setembro de 2025", url: "https://www1.folha.uol.com.br/poder/2025/09/veja-o-que-aconteceu-com-os-processos-contra-o-presidente-lula.shtml" }
