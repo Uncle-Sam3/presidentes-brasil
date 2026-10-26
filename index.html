@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presidentes do Brasil e os casos — linha do tempo</title>
+  <meta name="description" content="Linha do tempo neutra dos presidentes do Brasil desde 1889, com os principais casos de corrupção de cada mandato e o status jurídico atual.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@380;520;640&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir ao conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">1889</span>
+        <span><strong>Presidentes do Brasil</strong><small>Casos, sentenças e lacunas</small></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" aria-current="page">Linha do tempo</a>
+        <a href="esquemas.html">Esquemas</a>
+        <a href="metodologia.html">Metodologia</a>
+      </nav>
+    </div>
+  </header>
+  <noscript><p class="noscript">A linha do tempo precisa de JavaScript. A página de metodologia pode ser lida sem ele.</p></noscript>
+  <main id="conteudo">
+    <section class="view-lista" id="view-lista">
+      <div class="wrap hero">
+        <p class="kicker">República · 1889–2026</p>
+        <h1>Um mandato por vez, com o que a Justiça decidiu.</h1>
+        <p class="lede">Linha do tempo dos chefes do Executivo federal, da proclamação da República ao presidente em exercício em 26 de outubro de 2026. Cada ficha separa escândalo do período, acusação e sentença. Condenação anulada não é tratada como culpa confirmada nem como absolvição.</p>
+        <p class="notice">Acusação, delação e impeachment não são condenação penal. Onde o tribunal absolveu, anulou, trancou ou reconheceu prescrição, a ficha diz isso. Leia a <a href="metodologia.html">metodologia</a> antes de citar este site.</p>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="wrap">
+        <div class="toolbar">
+          <label class="sr" for="q" style="position:absolute;left:-999px">Buscar</label>
+          <input class="search" id="q" type="search" placeholder="Buscar nome, partido ou caso" autocomplete="off">
+          <div class="chips" role="group" aria-label="Filtrar mandatos">
+            <button class="chip" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+            <button class="chip" type="button" data-filter="caso" aria-pressed="false">Com caso documentado</button>
+            <button class="chip" type="button" data-filter="pessoal" aria-pressed="false">Caso pessoal do presidente</button>
+            <button class="chip" type="button" data-filter="sem" aria-pressed="false">Sem caso pessoal</button>
+          </div>
+        </div>
+        <div class="legend" aria-hidden="true">
+          <span class="pill condenado">condenado</span>
+          <span class="pill absolvido">absolvido</span>
+          <span class="pill anulado">anulado</span>
+          <span class="pill prescrito">prescrito</span>
+          <span class="pill trancado">trancado / arquivado</span>
+          <span class="pill investigado">investigado ou denunciado</span>
+          <span class="pill politico">sanção política</span>
+          <span class="pill sem">sem caso pessoal</span>
+        </div>
+        <div id="timeline"></div>
+      </div>
+    </section>
+    <article class="view-detail wrap detail" id="view-mandato" hidden></article>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      Compilação jornalística e histórica de fontes públicas, atualizada em 26 de outubro de 2026. Não é publicação oficial nem orientação jurídica.
+      <a href="metodologia.html">Metodologia e fontes</a>.
+    </div>
+  </footer>
+  <script src="js/presidents.js"></script>
+  <script src="js/schemes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
