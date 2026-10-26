@@ -185,7 +185,7 @@
 
     var drag = null;
     stage.addEventListener("pointerdown", function (event) {
-      if (event.target.closest(".map-node")) return;
+      if (event.target.closest(".map-node, .map-node-detail")) return;
       drag = { id: event.pointerId, x: event.clientX, y: event.clientY, ox: view.x, oy: view.y };
       stage.classList.add("dragging");
       stage.setPointerCapture(event.pointerId);
@@ -220,9 +220,9 @@
     var detail = el("div", { class: "map-node-detail" });
     detail.appendChild(el("strong", { text: "Clique num bloco" }));
     detail.appendChild(el("p", { text: "O texto do bloco mostra o que a denúncia, a delação ou a sentença registrou." }));
+    stage.appendChild(detail);
     container.appendChild(titlebar);
     container.appendChild(stage);
-    container.appendChild(detail);
     container.appendChild(help);
     requestAnimationFrame(function () { view.fit(); });
     if (container._onResize) window.removeEventListener("resize", container._onResize);
