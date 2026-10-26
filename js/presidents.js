@@ -416,12 +416,12 @@ var PRESIDENTS = [
         statusLabel: "Denúncias sem processo contra Vargas",
         years: "1953–1954",
         targetsPresident: false,
-        summary: "Lacerda e a União Democrática Nacional acusavam o governo de corrupção sistêmica. O ponto que virou CPI foi o jornal Última Hora, de Samuel Wainer, favorecido por empréstimos do Banco do Brasil enquanto apoiava Vargas. A comissão examinou o favorecimento. Não houve condenação criminal de Vargas, que morreu no cargo.",
-        involved: "Samuel Wainer, dono da Última Hora; diretores do Banco do Brasil; oposição liderada por Carlos Lacerda. Vargas era o alvo político, não um réu.",
-        amount: "Os empréstimos do Banco do Brasil ao jornal são o valor discutido na CPI. Não há sentença que fixe propina recebida por Vargas.",
-        legal: "Sem denúncia penal contra o presidente e sem condenação. A crise foi encerrada pela morte dele, não por um juízo.",
+        summary: "Lacerda e a UDN acusavam o governo de corrupção sistêmica, o “mar de lama”. O ponto que virou CPI, em 1953, foi o jornal Última Hora, de Samuel Wainer, que apoiava Vargas e recebeu empréstimos do Banco do Brasil. A comissão concluiu que houve favorecimento irregular ao jornal. O Memorial da Democracia registra o limite da prova: a CPI não conseguiu ligar o empréstimo ao presidente e acusou Ricardo Jafet, então presidente do Banco do Brasil. Vargas não foi denunciado. Morreu no cargo em 24 de agosto de 1954, sem que essa apuração virasse ação penal contra ele.",
+        involved: "Samuel Wainer e a Última Hora, beneficiários do crédito; Ricardo Jafet, presidente do Banco do Brasil, apontado pela CPI; Carlos Lacerda e a UDN, como acusadores. Vargas era o alvo político, não um réu.",
+        amount: "A CPI discutiu financiamentos do Banco do Brasil ao grupo de Wainer, descritos como fora das condições normais do banco. Não há sentença que fixe propina recebida por Vargas.",
+        legal: "A CPI de 1953 não vinculou o empréstimo a Vargas e não produziu denúncia penal contra ele. Sem condenação. A crise política terminou com a morte do presidente, não com um juízo sobre o mérito da acusação.",
         sources: [
-          { name: "Wikipedia — Última Hora", url: "https://pt.wikipedia.org/wiki/%C3%9Altima_Hora" },
+          { name: "Memorial da Democracia — a CPI da Última Hora e o limite da prova", url: "https://www.memorialdademocracia.com.br/card/lacerda-vai-a-guerra-contra-ultima-hora" },
           { name: "Wikipedia — Getúlio Vargas", url: "https://pt.wikipedia.org/wiki/Get%C3%BAlio_Vargas" }
         ]
       },
@@ -432,11 +432,12 @@ var PRESIDENTS = [
         statusLabel: "Crime do entorno, não de corrupção",
         years: "1954",
         targetsPresident: false,
-        summary: "Homens da guarda pessoal de Vargas participaram do atentado contra Carlos Lacerda. Gregório Fortunato foi condenado pela morte do major Rubens Vaz. É um crime de sangue ligado à crise política que a oposição narrava como luta contra a corrupção. Não é um julgamento de peculato ou corrupção passiva de Vargas.",
-        involved: "Gregório Fortunato e outros membros da guarda pessoal. A vítima fatal foi o major Rubens Vaz. Lacerda ficou ferido.",
-        amount: "Não se aplica. O processo é de homicídio e participação no atentado.",
-        legal: "Fortunato foi condenado pela Justiça. Vargas não foi réu: morreu três semanas depois do atentado.",
+        summary: "Em 5 de agosto de 1954, tiros na Rua Tonelero, no Rio, mataram o major da Aeronáutica Rubens Florentino Vaz e feriram Carlos Lacerda. A investigação chegou a Gregório Fortunato, chefe da guarda pessoal de Vargas. No júri ele admitiu ter mandado Climério Euribes de Almeida “dar um jeito” em Lacerda; Climério contratou Alcino João do Nascimento. Na madrugada de 12 de outubro de 1956 o Conselho de Sentença condenou Fortunato. A Folha, no registro da época republicado em 2006, informa a pena de 25 anos, por homicídio, tentativa contra Lacerda e lesões no guarda municipal. É crime de sangue do entorno, no meio da crise que a oposição narrava como luta contra a corrupção. Não é peculato nem corrupção passiva de Vargas, que não foi réu e tinha morrido em 24 de agosto de 1954.",
+        involved: "Gregório Fortunato, chefe da guarda pessoal, condenado; Climério Euribes de Almeida; Alcino João do Nascimento, o atirador. A vítima fatal foi o major Rubens Vaz. Lacerda ficou ferido. Vargas não foi réu.",
+        amount: "Não é caso de dinheiro público. A pena registrada pela Folha é de 25 anos de reclusão para Fortunato.",
+        legal: "Condenação criminal de Fortunato em 12 de outubro de 1956, pelo atentado. Vargas não foi denunciado: morreu três semanas depois dos tiros. A sentença não julga corrupção do presidente.",
         sources: [
+          { name: "Folha — condenação de Gregório Fortunato, registro de 1956", url: "https://www1.folha.uol.com.br/fsp/cotidian/ff1510200603.htm" },
           { name: "Wikipedia — Atentado da Rua Tonelero", url: "https://pt.wikipedia.org/wiki/Atentado_da_rua_Tonelero" }
         ]
       }
@@ -519,13 +520,14 @@ var PRESIDENTS = [
         statusLabel: "Investigado · sem condenação comum",
         years: "1956–1961, inquéritos depois de 1964",
         targetsPresident: true,
-        summary: "A Novacap e as empreiteiras ergueram a nova capital com dispensa larga de disputa e aditivos. Oposição e imprensa falaram em superfaturamento. O regime militar reabriu essa conta em inquéritos que também serviram para perseguir adversários. Não há condenação criminal transitada em julgado na Justiça ordinária contra JK.",
-        involved: "Governo Kubitschek, Novacap, empreiteiras das obras da capital. Os IPMs foram conduzidos pelas Forças Armadas depois do golpe.",
-        amount: "Não há total de propina fixado em sentença. O que existe são denúncias de sobrepreço numa obra cujo custo global era, já na época, objeto de disputa política.",
-        legal: "Sem condenação da Justiça comum. Cassação política e IPM do regime militar não são tratados aqui como culpa penal confirmada.",
+        summary: "A Novacap, presidida por Israel Pinheiro, contratou as empreiteiras que ergueram Brasília em poucos anos, com dispensa larga de disputa e aditivos. Ainda no mandato, a oposição e a imprensa falaram em superfaturamento e em favorecimento. Isso não virou ação penal com sentença. Depois do golpe, o regime reabriu a conta como instrumento político. Em 8 de junho de 1964, pelo Ato Institucional, Castelo Branco cassou o mandato de senador de JK e suspendeu os direitos políticos dele por dez anos. O decreto cita indicação do Conselho de Segurança Nacional; não é acórdão de juiz. A Folha, ao republicar o debate da época, registrou o editorial do Diário Carioca: a cassação saiu sem provas, com base em indícios. Em 1969 a Comissão Geral de Investigações, criada pelo AI-5, instaurou inquérito de enriquecimento ilícito sobre a venda de mansões e lotes da Novacap. Nesse órgão o ônus da prova era do acusado. JK morreu em 1976 sem condenação da Justiça comum. Cassação e IPM de ditadura não são tratados aqui como culpa penal confirmada.",
+        involved: "Juscelino Kubitschek, alvo dos atos e dos inquéritos; Novacap e empreiteiras da construção, entre elas nomes ouvidos no inquérito de 1969. Os IPMs foram conduzidos pelo regime depois do golpe, não pela Justiça comum.",
+        amount: "Não há total de propina fixado em sentença da Justiça comum. As acusações falam em lotes, mansões e aditivos de obra, não num valor sentenciado.",
+        legal: "Cassação política em 8 de junho de 1964, com suspensão de direitos por dez anos, por decreto do regime, não por juiz. Inquérito da Comissão Geral de Investigações em 1969, sob o AI-5, sem condenação da Justiça comum. IPM e ato de exceção não equivalem a culpa penal confirmada.",
         sources: [
-          { name: "Wikipedia — Juscelino Kubitschek", url: "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek" },
-          { name: "Wikipedia — Construção de Brasília", url: "https://pt.wikipedia.org/wiki/Constru%C3%A7%C3%A3o_de_Bras%C3%ADlia" }
+          { name: "Câmara — decreto de cassação de 8 de junho de 1964", url: "https://www2.camara.leg.br/legin/fed/decret_sn/1960-1969/decreto-36446-8-junho-1964-547902-publicacaooriginal-62799-pe.html" },
+          { name: "Folha — a cassação de 1964 e a falta de prova apontada na época", url: "https://www1.folha.uol.com.br/poder/2018/01/1952824-nos-anos-1960-um-ex-presidente-era-investigado-por-causa-de-apartamento.shtml" },
+          { name: "UFPR — inquérito de 1969 sobre lotes e mansões da Novacap", url: "https://acervodigital.ufpr.br/xmlui/handle/1884/67844?show=full" }
         ]
       }
     ]
@@ -831,13 +833,14 @@ var PRESIDENTS = [
         statusLabel: "Denúncias · sem condenação do presidente",
         years: "1987–1990",
         targetsPresident: false,
-        summary: "O governo lançou a ferrovia entre Açailândia e Anápolis como projeto de integração. Reportagens e auditorias apontaram sobrepreço, atraso e contratos questionáveis. A obra atravessou décadas e vários presidentes. Não há condenação criminal de José Sarney.",
-        involved: "Ministério dos Transportes, empreiteiras contratadas e o Palácio, que fez da ferrovia uma vitrine. Sem sentença contra Sarney.",
-        amount: "Não há total de propina fechado em sentença com o nome do presidente. As denúncias falam em superfaturamento de trechos, não num percentual único.",
-        legal: "Sem condenação criminal do presidente.",
+        summary: "O governo lançou a ferrovia, pela Valec, como obra de integração, com o Ministério dos Transportes sob José Reinaldo Tavares. Em maio de 1987 a Folha de S.Paulo, em reportagem de Jânio de Freitas, mostrou que a escolha das empreiteiras dos 18 lotes já estava combinada: o jornal publicou os vencedores num anúncio de classificados cinco dias antes do resultado oficial. O conjunto era orçado em US$ 2,5 bilhões. As propostas repetiam o mesmo desconto, e o desempate ficava com a Valec e o ministério. A concorrência foi anulada. O Globo registra que o inquérito policial foi arquivado cerca de um ano depois, sem punição de quem combinou a licitação. A obra atravessou outros governos. Em 2019 o TCU condenou gestores e contratados por superfaturamento em contratos bem posteriores — R$ 27,3 milhões no lote 4, indícios de R$ 19 milhões no lote 10 e outra condenação superior a R$ 90 milhões. São tomadas de contas de outra década. José Sarney não foi réu nem no inquérito arquivado nem nessas contas.",
+        involved: "Valec e o Ministério dos Transportes, que conduziram a concorrência de 1987; as empreiteiras dos 18 lotes, entre elas Odebrecht, Andrade Gutierrez, Camargo Corrêa, Mendes Júnior e Queiroz Galvão, citadas na reportagem. Sem sentença contra Sarney.",
+        amount: "US$ 2,5 bilhões, orçamento dos 18 lotes na denúncia de 1987. Não é propina sentenciada. As condenações do TCU em 2019, de dezenas de milhões de reais, referem-se a contratos posteriores e não têm o presidente como responsável.",
+        legal: "A licitação de 1987 foi anulada e o inquérito foi arquivado sem punição, segundo o registro do Globo. As condenações do TCU em 2019 são administrativas, de gestores e empresas em contratos posteriores, e não alcançam Sarney. Sem condenação criminal do presidente.",
         sources: [
-          { name: "Wikipedia — Ferrovia Norte-Sul", url: "https://pt.wikipedia.org/wiki/Ferrovia_Norte-Sul" },
-          { name: "Wikipedia — José Sarney", url: "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sarney" }
+          { name: "Folha — a fraude da concorrência de 1987", url: "https://www1.folha.uol.com.br/fsp/dinheiro/fi0607200824.htm" },
+          { name: "O Globo — licitação anulada e inquérito arquivado", url: "https://oglobo.globo.com/politica/fraude-anulou-licitacao-da-ferrovia-norte-sul-em-1987-15761445" },
+          { name: "TCU — superfaturamento posterior, condenação acima de R$ 90 milhões", url: "https://portal.tcu.gov.br/imprensa/noticias/superfaturamento-na-ferrovia-norte-sul-gera-condenacao-superior-a-r-90-milhoes" }
         ]
       }
     ]
@@ -866,13 +869,14 @@ var PRESIDENTS = [
         statusLabel: "Impeachment político · absolvido na AP 307",
         years: "1990–1994",
         targetsPresident: true,
-        summary: "A CPI do PC ouviu empreiteiros e doleiros. O padrão descrito era pagamento a Paulo César Farias, tesoureiro da campanha, para ter acesso a decisões do governo. O dinheiro, segundo a investigação, circulava em empresas sem lastro, contas de terceiros e depósitos no exterior. A acusação ligava esse caixa a gastos da Casa da Dinda; o Fiat Elba em nome de uma secretária virou a peça pública mais citada. A Câmara autorizou o impeachment em setembro de 1992 e o Senado concluiu a perda do cargo e oito anos de inelegibilidade mesmo depois da renúncia — sanção política, não pena criminal. Na Ação Penal 307, em dezembro de 1994, o STF absolveu Collor de corrupção passiva porque a maioria não viu prova de que ele recebeu a vantagem. PC Farias foi morto em 1996, com processos ainda abertos. A absolvição é por falta de provas naquele processo, não um apagamento do impeachment nem da condenação posterior, já como senador, na AP 1025.",
-        involved: "Paulo César Farias; empresários ouvidos na CPI; pessoas do entorno da Casa da Dinda, na narrativa da acusação. Collor era o acusado na AP 307.",
+        summary: "A CPI do PC ouviu empreiteiros e doleiros. O padrão descrito era pagamento a Paulo César Farias, tesoureiro da campanha, para ter acesso a decisões do governo. O dinheiro, segundo a investigação, circulava em empresas sem lastro, contas de terceiros e depósitos no exterior. A acusação ligava esse caixa a gastos da Casa da Dinda; o Fiat Elba em nome de uma secretária virou a peça pública mais citada. A Câmara autorizou o processo em 29 de setembro de 1992, por 441 votos a 38. O Senado afastou Collor em 2 de outubro. Ele renunciou em 29 de dezembro, e no dia seguinte o Senado concluiu a inabilitação por oito anos, por 76 votos a 2. Isso é sanção política por crime de responsabilidade, não pena criminal. Na AP 307, julgada entre 7 e 13 de dezembro de 1994, o procurador-geral Aristides Junqueira acusava Collor de corrupção passiva. O plenário o absolveu por 5 votos a 3, por falta de provas de que ele recebeu a vantagem. A Folha registrou que os votos pela condenação se concentraram num episódio — dinheiro da Mercedes-Benz repassado, via PC, ao deputado Sebastião Curió — e mesmo assim não formaram maioria. PC Farias foi absolvido da coautoria no mesmo placar e foi morto em 1996, com outros processos ainda abertos. A absolvição é por falta de provas naquele processo. Não apaga o impeachment nem a condenação posterior, já como senador, na AP 1025.",
+        involved: "Paulo César Farias; empresários ouvidos na CPI; pessoas do entorno da Casa da Dinda, na narrativa da acusação. Collor era o acusado na AP 307. O relator foi o ministro Ilmar Galvão.",
         amount: "A CPI descreveu um circuito de fachada e de contas no exterior. Não há valor de condenação contra Collor, porque a sentença penal foi absolutória. Estimativas da imprensa não substituem esse resultado.",
-        legal: "Sanção política em 1992: perda do cargo e oito anos de inelegibilidade. Na AP 307, em 1994, o STF absolveu Collor de corrupção passiva porque a maioria não viu prova de que ele recebeu a vantagem. O motivo da absolvição é falta de provas, não anulação do processo.",
+        legal: "Sanção política em 1992: a Câmara autorizou o processo por 441 a 38 e o Senado aplicou oito anos de inelegibilidade por 76 a 2, mesmo depois da renúncia. Na AP 307, em 13 de dezembro de 1994, o STF absolveu Collor de corrupção passiva por 5 a 3, porque a maioria não viu prova de que ele recebeu a vantagem. O motivo é falta de provas, não anulação do processo.",
         sources: [
-          { name: "STF — absolvição em 1994 no caso PC Farias", url: "https://noticias.stf.jus.br/postsnoticias/conheca-alguns-julgamentos-historicos-que-marcaram-os-ultimos-50-anos-do-stf/" },
-          { name: "Wikipedia — Impeachment de Fernando Collor", url: "https://pt.wikipedia.org/wiki/Impeachment_de_Fernando_Collor" },
+          { name: "Folha — absolvição por 5 a 3 em 13 de dezembro de 1994", url: "https://www1.folha.uol.com.br/fsp/1994/12/13/brasil/19.html" },
+          { name: "STF — a AP 307 e as sessões de dezembro de 1994", url: "https://cms.stf.jus.br/post-sobreostf/caso-collor-apn-307/" },
+          { name: "Wikipedia — Impeachment de Fernando Collor, com os placares", url: "https://en.wikipedia.org/wiki/Impeachment_of_Fernando_Collor_de_Mello" },
           { name: "Wikipedia — Paulo César Farias", url: "https://pt.wikipedia.org/wiki/Paulo_C%C3%A9sar_Farias" }
         ]
       },
@@ -919,13 +923,14 @@ var PRESIDENTS = [
         statusLabel: "CPI · cassações · sem pena ao presidente",
         years: "1993",
         targetsPresident: false,
-        summary: "Parlamentares da comissão mista de orçamento direcionavam emendas a empreiteiras e entidades, com comissão de volta. João Alves e Genebaldo Correia estão entre os nomes centrais. Houve cassação e renúncia. Muitos processos penais prescreveram. Itamar não foi acusado de chefiar o esquema.",
-        involved: "Deputados e senadores de mais de um partido, empreiteiras e entidades beneficiadas pelas emendas. O presidente ficou fora da lista de condenados.",
-        amount: "Não há um total único fechado em sentença. A CPI documentou emendas e comissões caso a caso.",
-        legal: "Cassação e renúncia no Congresso são sanção política. Em boa parte dos processos penais a punição prescreveu: o prazo para uma condenação definitiva se esgotou antes do trânsito em julgado. Prescrição não declara inocência. Sem condenação de Itamar Franco.",
+        summary: "Em 1993 o economista José Carlos Alves dos Santos, chefe da assessoria técnica da comissão de orçamento, revelou o esquema: parlamentares inseriam emendas que carimbavam verba para empreiteiras e para entidades de fachada e recebiam comissão de volta. A CPMI do Orçamento, em três meses, quebrou centenas de sigilos e ouviu dezenas de depoimentos. O relatório de Roberto Magalhães pediu a cassação de 18 dos 37 investigados. Seis perderam o mandato, entre eles o presidente da Câmara, Ibsen Pinheiro. Quatro renunciaram antes do julgamento no plenário — João Alves, Genebaldo Correia, Cid Carvalho e Manoel Moreira — e com isso evitaram a inelegibilidade que a cassação traria. Outros foram absolvidos pela Câmara. João Alves, apontado como chefe do esquema, disse à CPI que a fortuna vinha de prêmios de loteria: a Câmara registrou a alegação de que ele teria ganhado 56 vezes só em 1993. Cassação não é pena criminal. Ibsen Pinheiro, cassado politicamente, foi inocentado pela Justiça em 2000. O próprio delator, José Carlos Alves dos Santos, foi condenado em 2014 a dez anos e um mês por corrupção passiva. Onde um processo penal prescreveu, o motivo é o esgotamento do prazo antes de condenação definitiva. Prescrição não declara inocência. Itamar não foi acusado de chefiar o esquema.",
+        involved: "Deputados de mais de um partido, entre eles João Alves, Genebaldo Correia e Ibsen Pinheiro; empreiteiras e entidades beneficiadas pelas emendas; José Carlos Alves dos Santos, delator e depois condenado. O presidente ficou fora da lista.",
+        amount: "Não há um total único fechado em sentença contra o presidente. A CPI documentou emendas e comissões caso a caso. A condenação de 2014 do delator é pena de prisão, não um valor de propina do Planalto.",
+        legal: "Sanção política: seis cassações e quatro renúncias que evitaram a inelegibilidade. Absolvições no plenário da Câmara não são sentença penal. Ibsen Pinheiro foi inocentado pela Justiça em 2000. José Carlos Alves dos Santos foi condenado em 2014 por corrupção passiva. Onde houve prescrição, o prazo penal se esgotou antes do trânsito em julgado, o que não declara inocência. Sem condenação de Itamar Franco.",
         sources: [
-          { name: "Wikipedia — Anões do Orçamento", url: "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_dos_An%C3%B5es_do_Or%C3%A7amento" },
-          { name: "Wikipedia — Itamar Franco", url: "https://pt.wikipedia.org/wiki/Itamar_Franco" }
+          { name: "Câmara — a CPMI, as cassações e a alegação da loteria", url: "https://www.camara.leg.br/noticias/400806-mudancas-na-legislacao-sao-um-dos-principais-resultados-das-cpis" },
+          { name: "CBN — cassações, absolvição judicial de Ibsen e a pena do delator", url: "https://cbn.globoradio.globo.com/institucional/historia/aniversario/cbn-25-anos/boletins/2016/09/21/1993-BRASIL-VIVE-O-ESCANDALO-DOS-ANOES-DO-ORCAMENTO.htm" },
+          { name: "Folha — renúncias de João Alves, Moreira e Cid Carvalho em 1994", url: "https://www1.folha.uol.com.br/fsp/1994/3/23/brasil/4.html" }
         ]
       }
     ]
@@ -953,13 +958,14 @@ var PRESIDENTS = [
         statusLabel: "Denúncias · sem condenação do presidente",
         years: "1997",
         targetsPresident: false,
-        summary: "Para valer em 1998, a reeleição precisava de emenda constitucional. Parlamentares e reportagens acusaram o governo de pagar deputados pela votação — o valor de R$ 200 mil por voto circulou na imprensa da época. Houve investigação. Não houve condenação de FHC nem um acórdão que desse aqueles pagamentos como provados contra ele.",
-        involved: "Deputados acusados de vender o voto e operadores políticos do governo. FHC era o beneficiário político da emenda, não um condenado.",
-        amount: "A cifra repetida na época foi R$ 200 mil por parlamentar acusado. É número de denúncia jornalística, não de sentença.",
-        legal: "Sem condenação criminal do presidente.",
+        summary: "A emenda da reeleição foi aprovada em primeiro turno na Câmara em 28 de janeiro de 1997, com 336 votos, para valer já em 1998. Em 13 de maio de 1997 a Folha publicou gravações em que o deputado Ronivon Santiago (PFL-AC) dizia ter recebido dinheiro para votar a favor. Nas fitas ele falava em R$ 200 mil por deputado, dos quais teria ficado com R$ 100 mil em espécie, e citava João Maia, Zila Bezerra, Osmir Lima e Chicão Brígido, também do Acre. Atribuía a operação aos governadores Orleir Cameli (Acre) e Amazonino Mendes (Amazonas) e, em outra conversa, ao ministro das Comunicações Sérgio Motta. Motta, Cameli e Amazonino negaram. Ronivon e João Maia foram expulsos do PFL e renunciaram ao mandato para evitar a cassação e preservar os direitos políticos. A CCJ da Câmara absolveu Zila, Osmir e Chicão. Anos depois, na CPMI da compra de votos, Ronivon negou o recebimento, disse que as fitas eram montagem e lembrou que nem a Polícia Federal nem o Ministério Público propuseram ação penal contra ele; os eleitores o reelegeram. Não há condenação de Fernando Henrique nem acórdão que tenha dado aqueles pagamentos como provados contra o presidente. A gravação é a prova que existiu. A renúncia é sanção política evitada. A ausência de denúncia penal é o desfecho judicial.",
+        involved: "Ronivon Santiago e João Maia, que renunciaram; outros deputados do Acre citados nas fitas e depois absolvidos pela CCJ; os governadores Orleir Cameli e Amazonino Mendes e o ministro Sérgio Motta, negando a intermediação. FHC era o beneficiário político da emenda, não um condenado.",
+        amount: "R$ 200 mil por deputado, valor que Ronivon declara nas fitas publicadas pela Folha, com a ressalva dele próprio de ter recebido R$ 100 mil. É número de gravação, não de sentença.",
+        legal: "Sem denúncia penal contra o presidente e sem condenação. Dois deputados renunciaram para evitar cassação, o que preserva direitos políticos e encerra o processo na Câmara. Outros foram absolvidos pela CCJ. Ronivon afirmou, na CPMI, que o Ministério Público não o denunciou. A falta de ação penal não transforma a fita em prova julgada, nem a apaga.",
         sources: [
-          { name: "Wikipedia — Emenda da Reeleição", url: "https://pt.wikipedia.org/wiki/Emenda_da_Reelei%C3%A7%C3%A3o" },
-          { name: "Wikipedia — Fernando Henrique Cardoso", url: "https://pt.wikipedia.org/wiki/Fernando_Henrique_Cardoso" }
+          { name: "Folha — a gravação de Ronivon, 13 de maio de 1997", url: "https://www1.folha.uol.com.br/fsp/1997/5/13/brasil/13.html" },
+          { name: "Folha — quem renunciou e quem a CCJ absolveu", url: "https://www1.folha.uol.com.br/fsp/1997/11/15/brasil/15.html" },
+          { name: "Câmara — Ronivon nega o pagamento na CPMI e diz que não houve ação penal", url: "https://www.camara.leg.br/noticias/75576-ronivon-nega-ter-recebido-para-votar-pela-reeleicao/" }
         ]
       },
       {
@@ -969,12 +975,13 @@ var PRESIDENTS = [
         statusLabel: "Disputa de preço · sem condenação",
         years: "1995–1998",
         targetsPresident: false,
-        summary: "Telebras, Vale e empresas estaduais de energia foram vendidas no período. Críticos falaram em preço baixo e em financiamento público aos compradores. O TCU examinou procedimentos. Não resultou condenação criminal do presidente por corrupção nessas vendas. Divergência sobre valuation não é, sem mais, um caso de propina.",
-        involved: "Governo federal, BNDES e os consórcios compradores.",
-        amount: "Não há propina fixada em sentença contra FHC. Os preços de venda são públicos nos editais e seguem disputados na literatura econômica.",
-        legal: "Sem condenação criminal do presidente.",
+        summary: "No período o governo leiloou a Vale, em 1997, a Telebras, em 1998, e distribuidoras estaduais de energia. O desenho era o do Programa Nacional de Desestatização: preço mínimo, leilão e, em vários casos, financiamento do BNDES aos compradores. A crítica, registrada na imprensa e na literatura, foi que o mínimo estava baixo e que o banco público ajudava a pagar a compra. O TCU examinou procedimentos de venda. Não há denúncia penal recebida nem condenação de Fernando Henrique por corrupção nesses leilões. Divergência sobre o preço de uma privatização não é, sem mais, um caso de propina. Onde houve irregularidade pontual de licitante ou de agente, ela não está nesta ficha como sentença contra o presidente, porque as fontes usadas não a registram.",
+        involved: "Governo federal, BNDES e os consórcios compradores da Vale, da Telebras e das elétricas.",
+        amount: "Não há propina fixada em sentença contra FHC. Os preços de venda são os dos editais e seguem disputados. Esta ficha não converte crítica de valuation em número de corrupção.",
+        legal: "Sem denúncia penal recebida e sem condenação criminal do presidente. Exame do TCU sobre procedimento não é, por si, culpa penal.",
         sources: [
-          { name: "Wikipedia — Privatização no Brasil", url: "https://pt.wikipedia.org/wiki/Privatiza%C3%A7%C3%A3o_no_Brasil" }
+          { name: "Wikipedia — Privatização no Brasil", url: "https://pt.wikipedia.org/wiki/Privatiza%C3%A7%C3%A3o_no_Brasil" },
+          { name: "Wikipedia — Fernando Henrique Cardoso", url: "https://pt.wikipedia.org/wiki/Fernando_Henrique_Cardoso" }
         ]
       }
     ]
@@ -992,8 +999,8 @@ var PRESIDENTS = [
     accessDetail: "Reeleito em 1998, já no primeiro turno, e empossado para o segundo mandato em 1999.",
     exit: "Fim do mandato",
     exitDetail: "Transmitiu o cargo a Luiz Inácio Lula da Silva em 1º de janeiro de 2003.",
-    card: "Marka-FonteCindam: condenação penal prescrita em 2016. FHC não foi réu.",
-    summary: "O segundo mandato abriu com a maxidesvalorização do real. O Banco Central socorreu os bancos Marka e FonteCindam com dólar abaixo do mercado. O presidente do BC foi condenado e a pena prescreveu. No Congresso aliado, o escândalo da Sudam derrubou Jader Barbalho da presidência do Senado. FHC não foi condenado em nenhum dos dois.",
+    card: "Marka prescrito. Sudam e Banpará na base. TRT-SP: Nicolau e Luiz Estevão condenados. FHC não foi réu.",
+    summary: "O segundo mandato abriu com a maxidesvalorização do real. O Banco Central socorreu os bancos Marka e FonteCindam com dólar abaixo do mercado. O presidente do BC foi condenado e a pena prescreveu. Na base aliada, fraudes em projetos da Sudam e denúncias no Banpará derrubaram Jader Barbalho do Senado, sem condenação criminal citada nesta ficha. No Judiciário paulista, o desvio da obra do fórum do TRT rendeu condenações a um juiz e a um senador. FHC não foi réu em nenhum desses casos.",
     cases: [
       {
         id: "marka",
@@ -1019,13 +1026,32 @@ var PRESIDENTS = [
         statusLabel: "Crise na base · sem condenação de FHC",
         years: "2001",
         targetsPresident: false,
-        summary: "Em 2001, denúncias de desvio em projetos financiados pela Sudam, a superintendência da Amazônia, atingiram aliados do governo. Jader Barbalho deixou a presidência do Senado. O caso é da base congressual e de órgãos de fomento, não uma sentença contra o presidente.",
-        involved: "Dirigentes e parlamentares ligados à Sudam, entre eles Jader Barbalho, que renunciou ao comando do Senado. FHC não foi denunciado por esse esquema.",
-        amount: "Não há total único de sentença contra o presidente. Os inquéritos falaram em projetos superfaturados com dinheiro dos fundos de desenvolvimento.",
-        legal: "Sem condenação de Fernando Henrique. Os processos de parlamentares tiveram destinos próprios, vários deles longos e inconclusos.",
+        summary: "A Sudam liberava incentivos fiscais e financiamentos a projetos na Amazônia. Em março de 2001 um grupo criado pelo Ministério da Integração, de Fernando Bezerra, apresentou a Fernando Henrique um relatório: em 29 dos 95 projetos examinados havia desvio de R$ 108,6 milhões, com notas frias, contratos forjados e ao menos 40 servidores envolvidos. Bezerra projetou que o problema poderia chegar a cerca de 30% dos 548 projetos ativos, então estimados em R$ 1,653 bilhão. FHC afastou a diretoria e nomeou um interventor. A Receita, em apuração paralela, multou 32 empresas em R$ 420 milhões por projetos-fantasma. O relatório ministerial dizia que o nome de Jader Barbalho, presidente do Congresso e quem indicava superintendentes da Sudam, não aparecia nas irregularidades, embora aparecessem indicados dele, como no projeto Usimar, de onde teriam sumido R$ 44 milhões. Outra frente, o Banpará, é que levou ao processo político: em 28 de setembro de 2001 o Conselho de Ética do Senado abriu processo de decoro contra Jader por 11 votos a 4, por acusação de ter mentido sobre desvios no banco estadual. Em 4 de outubro ele renunciou ao mandato. A renúncia arquivou o processo no Senado e preservou os direitos políticos. Não é condenação criminal, e as fontes desta ficha não registram sentença penal contra ele nem contra FHC por esses fatos.",
+        involved: "Servidores e superintendentes da Sudam; empresas incentivadas; Jader Barbalho, que indicava a direção do órgão e renunciou ao Senado no processo do Banpará. FHC recebeu o relatório e demitiu a diretoria. Não foi denunciado.",
+        amount: "R$ 108,6 milhões apontados em 29 projetos, na amostra de março de 2001. Multa administrativa da Receita de R$ 420 milhões a 32 empresas. Projeção do ministro, não auditada até o fim naquele momento, de até cerca de R$ 496 milhões. Nenhum desses números é condenação contra o presidente.",
+        legal: "Afastamento administrativo da diretoria da Sudam e multas da Receita às empresas. Jader Barbalho renunciou ao Senado em 4 de outubro de 2001, depois que o Conselho de Ética abriu processo de decoro por 11 a 4; a renúncia arquivou esse processo e evitou a perda de direitos políticos. Sem condenação criminal de Fernando Henrique nas fontes desta ficha.",
         sources: [
-          { name: "Wikipedia — Jader Barbalho", url: "https://pt.wikipedia.org/wiki/Jader_Barbalho" },
-          { name: "Wikipedia — Sudam", url: "https://pt.wikipedia.org/wiki/Superintend%C3%AAncia_do_Desenvolvimento_da_Amaz%C3%B4nia" }
+          { name: "Folha — o relatório de R$ 108,6 milhões e a demissão da diretoria", url: "https://www1.folha.uol.com.br/fsp/brasil/fc1303200102.htm" },
+          { name: "Folha — multa de R$ 420 milhões da Receita", url: "https://www1.folha.uol.com.br/fsp/brasil/fc2903200113.htm" },
+          { name: "Folha — renúncia de Jader ao Senado em 4 de outubro de 2001", url: "https://www1.folha.uol.com.br/folha/brasil/ult96u25412.shtml" }
+        ]
+      },
+      {
+        id: "trt-sp",
+        title: "Fórum do TRT de São Paulo",
+        status: "condenado",
+        statusLabel: "Juiz e senador condenados · FHC não foi réu",
+        years: "obra nos anos 1990 · sentença em 2006",
+        targetsPresident: false,
+        summary: "A licitação da obra do Fórum Ruy Barbosa, do Tribunal Regional do Trabalho de São Paulo, começou em 1992. O MPF acusou o então juiz e presidente do tribunal, Nicolau dos Santos Neto, o senador Luiz Estevão e os empresários da construtora Incal de desviar cerca de R$ 169,5 milhões. Em primeira instância, em 2003, o juiz Casem Mazloum condenou só Nicolau, a oito anos, e absolveu os demais. Em 3 de maio de 2006 a 5ª Turma do TRF-3 reformou essa sentença por unanimidade: condenou Nicolau a 26 anos e 6 meses, Luiz Estevão a 31 anos, Fábio Monteiro de Barros a 31 anos e José Eduardo Teixeira Ferraz a 27 anos e 8 meses, por peculato, estelionato, corrupção, quadrilha e documento falso, e decretou a perda de bens. Parte das penas demorou a transitar. Em 2013 o STF confirmou uma condenação definitiva de Nicolau por lavagem de dinheiro, de nove anos, com multa de R$ 600 mil, quando o crime estava na véspera de prescrever. O MPF alertou, no mesmo ano, que outros crimes de Nicolau já tinham prescrito ou prescreveriam até 2014: o prazo se esgotou antes do trânsito. Em ações de improbidade, o TRF-3 manteve o dever de ressarcir; a Folha registrou o valor atualizado em cerca de R$ 1 bilhão. Fernando Henrique não foi acusado nem condenado. O caso é do Judiciário e de um senador, no período do governo, não uma sentença contra o Planalto.",
+        involved: "Nicolau dos Santos Neto, juiz aposentado; Luiz Estevão, então senador; Fábio Monteiro de Barros e José Eduardo Teixeira Ferraz, da Incal. FHC não foi réu.",
+        amount: "Cerca de R$ 169,5 milhões desviados, na condenação de 2006. O TRF-3, nas ações de improbidade, tratou o débito atualizado na casa de R$ 1 bilhão, segundo a Folha em 2013. Números da condenação dos operadores, não do presidente.",
+        legal: "Condenações criminais do TRF-3 em 2006, reformando absolvições de primeira instância. Em 2013 o STF tornou definitiva a pena de Nicolau por lavagem, de nove anos. Outros crimes prescreveram porque o prazo acabou antes do trânsito em julgado; prescrição não é absolvição. Sem denúncia e sem condenação de Fernando Henrique.",
+        sources: [
+          { name: "Folha — TRF condena Nicolau e Luiz Estevão em 2006", url: "https://www1.folha.uol.com.br/fsp/brasil/fc0405200625.htm" },
+          { name: "MPF — a reforma da sentença e o risco de prescrição", url: "https://linhadotempo.mpf.mp.br/www/linha-do-tempo-prr3/2006-prr3-obtem-condenacao-de-todos-os-reus-envolvidos-no-escandalo-do-trt-sp" },
+          { name: "Agência Brasil — STF confirma a lavagem de Nicolau em 2013", url: "https://memoria.ebc.com.br/agenciabrasil/noticia/2013-04-03/stf-confirma-condenacao-definitiva-de-nicolau-dos-santos-neto-por-lavagem-de-dinheiro" },
+          { name: "Folha — ressarcimento na casa de R$ 1 bilhão", url: "https://www1.folha.uol.com.br/fsp/poder/137988-nicolau-luiz-estevao-e-outros-reus-terao-de-devolver-r-1-bi-por-desvio.shtml" }
         ]
       }
     ]
@@ -1191,7 +1217,7 @@ var PRESIDENTS = [
     exit: "Reeleita",
     exitDetail: "Reeleita em 2014 num segundo turno apertado, com a Lava Jato já em curso desde março daquele ano.",
     card: "A Lava Jato vem a público. Pasadena é reprovada pelo TCU. Dilma não tem condenação penal.",
-    summary: "Dilma não foi condenada por corrupção. O que a atinge nesse mandato é a responsabilidade política sobre a Petrobras, que ela supervisionou antes de ser presidente, e o início da Operação Lava Jato. O TCU considerou lesiva a compra da refinaria de Pasadena. Ela disse que votou no conselho com um resumo incompleto. Isso não virou ação penal com condenação.",
+    summary: "Dilma não foi condenada por corrupção. O que a atinge nesse mandato é a responsabilidade política sobre a Petrobras, que ela presidiu no conselho antes de ser presidente, e o início da Operação Lava Jato. Na compra da refinaria de Pasadena o TCU achou prejuízo de centenas de milhões de dólares e, em 2021, afastou a responsabilidade dela e do conselho, condenando diretores. Isso é julgamento de contas, não ação penal.",
     cases: [
       {
         id: "pasadena",
@@ -1200,13 +1226,15 @@ var PRESIDENTS = [
         statusLabel: "TCU apontou prejuízo · sem condenação penal",
         years: "compra em 2006 · julgamento de contas depois",
         targetsPresident: true,
-        summary: "A Petrobras comprou a refinaria de Pasadena, no Texas, numa operação que o TCU considerou lesiva à companhia. Dilma presidia o conselho quando o negócio foi aprovado e afirmou que o papel submetido aos conselheiros omitia cláusulas relevantes. Houve prejuízo estimado em centenas de milhões de dólares. Não houve condenação criminal dela.",
-        involved: "Conselho da Petrobras, do qual Dilma era presidente; a vendedora Astra Oil; diretores da área internacional depois citados na Lava Jato.",
-        amount: "Estimativas públicas de prejuízo ficaram na casa de centenas de milhões de dólares. Não há reparação criminal imposta a Dilma.",
-        legal: "Irregularidade apontada pelo Tribunal de Contas. Sem condenação penal da então presidente do conselho.",
+        summary: "Em janeiro de 2005 o grupo belga Astra comprou 100% da refinaria de Pasadena, no Texas, por US$ 42,5 milhões. Em março de 2006 a Petrobras comprou 50% por US$ 360 milhões. O contrato, fechado pela diretoria, tinha uma put option: a Astra podia obrigar a estatal a comprar a outra metade com ágio. Dilma presidia o conselho e era ministra da Casa Civil. A defesa dela, apresentada ao TCU pelos advogados José Eduardo Cardozo e Walfrido Warde, diz que o resumo executivo submetido ao conselho não mencionava a put option e trazia avaliação do Citigroup de US$ 359 milhões como preço justo dos 50%. Em 2008 a Astra exerceu a opção e processou a Petrobras nos Estados Unidos. Em 2012 um acordo extrajudicial somou US$ 820,5 milhões. O TCU contabilizou o custo total em US$ 1,24 bilhão e estimou o dano em US$ 792 milhões, entre eles US$ 580 milhões pela compra feita desconsiderando laudo e assumindo a put option. O relator José Jorge viu intenção de majorar o preço, não um erro de avaliação. Em 14 de abril de 2021 o plenário, por unanimidade, inclusive com o voto de ministro indicado por Bolsonaro, afastou a responsabilidade de Dilma e do conselho. O voto de Vital do Rêgo distinguia quem agiu com deslealdade de quem não teve má-fé demonstrada. Na mesma sessão o TCU condenou José Sérgio Gabrielli, Paulo Roberto Costa, Nestor Cerveró e outros a multa e a oito anos de inabilitação. Não houve condenação criminal de Dilma. Afastar a responsabilidade dela no TCU não absolve os diretores, nem transforma o prejuízo da Petrobras em propina recebida pela presidente.",
+        involved: "Dilma Rousseff, presidente do conselho na aprovação de 2006; Astra Oil, vendedora; Nestor Cerveró, Paulo Roberto Costa e José Sérgio Gabrielli, condenados pelo TCU em 2021. Sem pena criminal contra Dilma.",
+        amount: "Custo total de US$ 1,24 bilhão e dano estimado de US$ 792 milhões, na conta do TCU. A primeira metade saiu por US$ 360 milhões, depois de a Astra ter comprado 100% por US$ 42,5 milhões. Não há reparação criminal imposta a Dilma.",
+        legal: "O TCU identificou o dano e, em 14 de abril de 2021, afastou por unanimidade a responsabilidade de Dilma e do conselho, condenando diretores a multa e a oito anos sem cargo público. É julgamento de contas. Sem condenação penal da ex-presidente do conselho.",
         sources: [
-          { name: "Wikipedia — Refinaria de Pasadena", url: "https://pt.wikipedia.org/wiki/Refinaria_de_Pasadena" },
-          { name: "Wikipedia — Dilma Rousseff", url: "https://pt.wikipedia.org/wiki/Dilma_Rousseff" }
+          { name: "TCU — o dano de US$ 792 milhões e o custo de US$ 1,24 bilhão", url: "https://portal.tcu.gov.br/imprensa/noticias/tcu-identifica-dano-em-compra-da-refinaria-de-pasadena-pela-petrobras" },
+          { name: "Poder360 — TCU afasta Dilma e condena diretores em 2021", url: "https://www.poder360.com.br/brasil/tcu-inocenta-dilma-por-prejuizos-da-petrobras-com-compra-de-pasadena/" },
+          { name: "Conexão Política — o julgamento de 14 de abril de 2021 foi unânime", url: "https://www.conexaopolitica.com.br/judiciario/tcu-absolve-dilma-no-caso-da-refinaria-de-pasadena/" },
+          { name: "Conjur — a defesa de Dilma sobre o resumo e a put option", url: "https://conjur.com.br/2018-jan-16/dilma-cervero-ludibriou-conselho-petrobras-pasadena/" }
         ]
       },
       {
@@ -1251,12 +1279,14 @@ var PRESIDENTS = [
         statusLabel: "Impeachment · sem condenação penal",
         years: "2014–2016",
         targetsPresident: true,
-        summary: "O Tesouro atrasou pagamentos devidos a Caixa, Banco do Brasil e BNDES, e esses bancos carregaram o custo. As contas públicas pareciam melhores do que eram. O TCU rejeitou as contas de 2014. A Câmara autorizou o impeachment e o Senado cassou o mandato em 31 de agosto de 2016. A acusação vencedora não foi o Petrolão, embora a Lava Jato fosse o pano de fundo político. O Senado não aplicou os oito anos de inelegibilidade.",
-        involved: "Dilma Rousseff; equipe econômica; bancos públicos credores das chamadas pedaladas; TCU e o Congresso.",
-        amount: "As manobras foram medidas em dezenas de bilhões de reais de atrasos e de créditos. Não são propina recebida pela presidente.",
-        legal: "Condenação política: perda do cargo. Sem inabilitação de oito anos. Sem condenação penal por corrupção.",
+        summary: "O Tesouro atrasou repasses devidos a bancos públicos, e o Banco do Brasil carregou, com dinheiro próprio, o Plano Safra. As contas de 2014 pareciam melhores do que eram, em ano eleitoral. Em 7 de outubro de 2015 o TCU, por 8 votos a 0, recomendou ao Congresso rejeitar essas contas. O relator Augusto Nardes falou em operações que melhoravam artificialmente o resultado em R$ 106 bilhões. O parecer é prévio: quem rejeita as contas é o Congresso. A denúncia que a Câmara recebeu, relatada por Jovair Arantes, tinha dois núcleos de crime de responsabilidade: decretos de crédito suplementar sem autorização legislativa e as pedaladas no Plano Safra, lidas pelo TCU como operação de crédito vedada. A defesa, feita pelo advogado-geral José Eduardo Cardozo, sustentou que o atraso e os decretos eram prática de governos anteriores e que o TCU mudara a interpretação. Em 17 de abril de 2016 a Câmara autorizou o processo por 367 votos a 137, com 7 abstenções. O Senado afastou Dilma em 12 de maio. Em 31 de agosto, sob a presidência de Ricardo Lewandowski, o plenário cassou o mandato por 61 a 20. Numa votação separada, pedida pelo PT, a inabilitação por oito anos teve 42 votos a 36 e 3 abstenções, abaixo dos 54 exigidos, e não foi aplicada. A acusação vencedora não foi o Petrolão, embora a Lava Jato fosse o pano de fundo político. Não existe condenação penal de Dilma por corrupção.",
+        involved: "Dilma Rousseff; a equipe econômica; o Banco do Brasil, credor das pedaladas do Plano Safra julgadas no impeachment; TCU, Câmara e Senado.",
+        amount: "O relator do TCU estimou em R$ 106 bilhões o efeito das operações irregulares sobre o resultado de 2014. Não é propina recebida pela presidente. É atraso de pagamento e crédito orçamentário, medidos como maquiagem fiscal.",
+        legal: "Parecer do TCU pela rejeição das contas, por 8 a 0, em 7 de outubro de 2015. Condenação política: a Câmara autorizou o processo por 367 a 137 e o Senado cassou o mandato por 61 a 20 em 31 de agosto de 2016. A inabilitação de oito anos não saiu porque teve 42 votos, abaixo de 54. Sem condenação penal por corrupção.",
         sources: [
-          { name: "Wikipedia — Impeachment de Dilma Rousseff", url: "https://pt.wikipedia.org/wiki/Impeachment_de_Dilma_Rousseff" }
+          { name: "BBC — o parecer do TCU e os R$ 106 bilhões", url: "https://www.bbc.com/portuguese/noticias/2015/10/151007_rejeicao_tcu_ms_ab" },
+          { name: "Câmara — autorização do impeachment por 367 a 137", url: "https://www.camara.leg.br/noticias/485947-camara-autoriza-instauracao-de-processo-de-impeachment-de-dilma-com-367-votos-a-favor-e-137-contra/" },
+          { name: "Câmara — cassação por 61 a 20 e inabilitação rejeitada", url: "https://www.camara.leg.br/noticias/497243-dilma-rousseff-perde-o-mandato-mas-podera-ocupar-funcoes-publicas" }
         ]
       }
     ]
@@ -1285,13 +1315,14 @@ var PRESIDENTS = [
         statusLabel: "Ação penal trancada por falta de provas",
         years: "2017 · trancamento mantido em 2024",
         targetsPresident: true,
-        summary: "Delatores da J&F gravaram Temer e filmaram a entrega de R$ 500 mil a Rocha Loures. A acusação dizia que era propina. A Câmara rejeitou autorizar processos enquanto ele era presidente. Depois do mandato, o TRF-1 trancou a ação por falta de provas, sem julgamento de mérito, em 2021. O STJ manteve. Em 8 de maio de 2024, Edson Fachin recusou o recurso do MPF. Não há condenação.",
-        involved: "Michel Temer; Rodrigo Rocha Loures; Joesley Batista e Ricardo Saud, da J&F/JBS.",
-        amount: "R$ 500 mil na mala filmada. A acusação apresentava esse valor como parcela de um acerto maior, não como total sentenciado.",
-        legal: "O TRF-1 trancou a ação penal em 2021 por falta de provas de que o dinheiro da mala chegou a Temer — ausência de justa causa, não exame de mérito até o fim. O STJ manteve. Em maio de 2024 Fachin não admitiu o recurso do MPF porque o recurso extraordinário não reexamina prova. Sem condenação.",
+        summary: "Em maio de 2017 Joesley Batista, da J&F, gravou uma conversa com Temer no Palácio do Jaburu e a entregou à PGR junto com a delação. A acusação ouviu na gravação um aval a pagamentos; a defesa ouviu uma conversa ambígua e disse que o áudio fora editado. Na sequência, Ricardo Saud entregou uma mala com R$ 500 mil a Rodrigo Rocha Loures, assessor de Temer. A Polícia Federal filmou a entrega. A denúncia de Rodrigo Janot, de 26 de junho de 2017, imputava a Temer corrupção passiva: teria recebido esses R$ 500 mil por intermédio de Loures e aceitado promessa de parcelas maiores. O parecer vencido na CCJ falava em até R$ 38 milhões. Temer negou ter recebido qualquer valor e disse que Loures agiu sem o seu conhecimento. Enquanto era presidente, o processo dependia de autorização da Câmara. Em 2 de agosto de 2017 o plenário rejeitou a primeira denúncia por 263 votos a 227 e 2 abstenções — eram necessários 342 para autorizar o STF. Em 25 de outubro a Câmara rejeitou a segunda denúncia, de organização criminosa e obstrução de Justiça, que também incluía Eliseu Padilha e Moreira Franco, por 251 a 233. As duas acusações ficaram suspensas até o fim do mandato. Já fora do cargo, o TRF-1 trancou a ação da mala em 2021 por falta de provas de que o dinheiro chegou a Temer, sem julgamento de mérito. O STJ manteve. Em 8 de maio de 2024 Edson Fachin não admitiu o recurso do MPF porque o recurso extraordinário não reexamina prova. Não há condenação. A mala filmada continua sendo um fato. O elo com Temer é o que a Justiça não teve por provado.",
+        involved: "Michel Temer; Rodrigo Rocha Loures, receptor filmado, com processo próprio desmembrado; Joesley Batista e Ricardo Saud, delatores da J&F. A segunda denúncia citava também Eliseu Padilha e Moreira Franco.",
+        amount: "R$ 500 mil na mala filmada. A acusação apresentava esse valor como parcela e falava, no parecer da CCJ, em promessa de até R$ 38 milhões. Não há total sentenciado, porque não houve condenação.",
+        legal: "A Câmara barrou as duas denúncias no mandato: 263 a 227 em 2 de agosto de 2017, por corrupção passiva, e 251 a 233 em 25 de outubro, por organização criminosa e obstrução. O motivo constitucional é que, sem dois terços da Câmara, o STF não processa o presidente em exercício. Depois do mandato, o TRF-1 trancou a ação da mala por falta de justa causa: não viu prova de que o dinheiro chegou a Temer. Isso não é exame de mérito até o fim nem absolvição que declare o fato inexistente. Em 2024 Fachin não admitiu o recurso do MPF porque o recurso extraordinário não reexamina prova. Sem condenação.",
         sources: [
-          { name: "G1 — Fachin mantém o encerramento em 2024", url: "https://g1.globo.com/politica/noticia/2024/05/08/fachin-mantem-encerrada-investigacao-de-temer-no-caso-da-mala-de-r-500-mil.ghtml" },
-          { name: "Wikipedia — Joesley Batista", url: "https://pt.wikipedia.org/wiki/Joesley_Batista" }
+          { name: "Câmara — rejeição da primeira denúncia por 263 a 227", url: "https://www.camara.leg.br/noticias/519587-camara-nega-autorizacao-para-processo-contra-temer-no-supremo" },
+          { name: "G1 — segunda denúncia rejeitada por 251 a 233", url: "https://g1.globo.com/politica/noticia/segunda-denuncia-contra-temer.ghtml" },
+          { name: "G1 — Fachin mantém o encerramento em 2024", url: "https://g1.globo.com/politica/noticia/2024/05/08/fachin-mantem-encerrada-investigacao-de-temer-no-caso-da-mala-de-r-500-mil.ghtml" }
         ]
       },
       {
@@ -1369,11 +1400,12 @@ var PRESIDENTS = [
         statusLabel: "Declarado inconstitucional · sem condenação pessoal",
         years: "2019–2022",
         targetsPresident: false,
-        summary: "Emendas de relator, classificadas como RP9, passaram a distribuir dezenas de bilhões de reais por ano sem que o eleitor soubesse qual parlamentar indicara cada verba. O Planalto usou esse volume para ampliar a base na Câmara. Em dezembro de 2022 o STF declarou o desenho inconstitucional. É um caso de opacidade orçamentária e de risco de corrupção, no mesmo gênero dos Anões, não uma condenação de Bolsonaro por receber propina.",
-        involved: "Relatores do orçamento, lideranças da Câmara e o Palácio do Planalto. Sem réu presidencial condenado.",
-        amount: "Dezenas de bilhões de reais por ano em emendas RP9 no auge do mecanismo. O número exato varia conforme o exercício e a fonte orçamentária.",
-        legal: "Norma e prática declaradas inconstitucionais pelo STF em 2022. Sem condenação criminal do presidente.",
+        summary: "Emendas do relator-geral do orçamento, identificadas como RP-9, passaram a incluir despesas novas sem que o eleitor soubesse qual parlamentar indicara cada verba. O Planalto usou esse volume para ampliar a base na Câmara. Partidos de oposição — Cidadania, PSB, PSOL e PV — levaram a prática ao STF nas ADPFs 850, 851, 854 e 1014. Em 19 de dezembro de 2022 o plenário julgou o chamado orçamento secreto inconstitucional por 6 votos a 5, seguindo a relatora Rosa Weber. O voto dela, lido em 14 de dezembro, disse que as RP-9 violam transparência, impessoalidade, moralidade e publicidade porque são anônimas. Em 2022 esse tipo de emenda chegou a R$ 16,5 bilhões, e R$ 19,4 bilhões estavam reservados para 2023. A decisão limitou a emenda de relator à correção de erros e omissões, tirou o caráter vinculante das indicações do relator na execução de 2021 e 2022 e mandou os órgãos publicarem, em 90 dias, solicitador e beneficiário dos pagamentos de 2020 a 2022. É controle de constitucionalidade. Não é ação penal, não aponta propina recebida por Bolsonaro e não condena ninguém. O risco de corrupção, do mesmo gênero dos Anões, é o que a opacidade permitia; o STF julgou a opacidade, não um recebimento.",
+        involved: "Relatores-gerais do orçamento, lideranças da Câmara e o Palácio do Planalto, que negociava a execução. Autores das ações: Cidadania, PSB, PSOL e PV. Sem réu presidencial condenado.",
+        amount: "R$ 16,5 bilhões em emendas RP-9 em 2022 e R$ 19,4 bilhões reservados para 2023, nos números citados pelo STF. É volume orçamentário, não propina sentenciada.",
+        legal: "O STF declarou a prática inconstitucional em 19 de dezembro de 2022, por 6 a 5, nas ADPFs 850, 851, 854 e 1014. O motivo é a ofensa à transparência e à impessoalidade, não um crime provado contra o presidente. Sem condenação criminal de Bolsonaro.",
         sources: [
+          { name: "STF — orçamento secreto inconstitucional, 19 de dezembro de 2022", url: "https://noticias.stf.jus.br/postsnoticias/stf-julga-orcamento-secreto-inconstitucional/" },
           { name: "Wikipedia — Orçamento secreto", url: "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto" }
         ]
       },
