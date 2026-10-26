@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esquemas — mapas do caminho do dinheiro</title>
+  <meta name="description" content="Diagramas do caminho do dinheiro nos principais esquemas de corrupção documentados no Brasil, com base em denúncias, delações e sentenças.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@380;520;640&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir ao conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">1889</span>
+        <span><strong>Presidentes do Brasil</strong><small>Casos, sentenças e lacunas</small></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Linha do tempo</a>
+        <a href="esquemas.html" aria-current="page">Esquemas</a>
+        <a href="metodologia.html">Metodologia</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <div class="wrap hero">
+      <p class="kicker">Mapas · denúncia, delação e sentença</p>
+      <h1>O caminho do dinheiro, como o processo descreveu.</h1>
+      <p class="lede">Caixas e setas para os esquemas mais documentados. Arraste, use a roda do mouse ou os botões para aproximar. Clique num bloco para ler o que está nos autos — e o que a Justiça fez depois.</p>
+      <p class="notice">Seta tracejada é elo alegado, não fato reconhecido em sentença. Vários condenados da Lava Jato tiveram penas anuladas anos depois. O desenho explica o mecanismo descrito à época; a ficha de cada mandato traz o status atual.</p>
+    </div>
+    <div class="wrap-wide scheme-layout">
+      <nav class="scheme-nav" id="scheme-nav" aria-label="Esquemas"></nav>
+      <div>
+        <div id="map-root"></div>
+        <section class="map-detail" id="map-copy"></section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrap">Os mapas resumem peças públicas. Confira a fonte de cada esquema e a <a href="metodologia.html">metodologia</a>.</div>
+  </footer>
+  <script src="js/schemes.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="js/schemes-page.js"></script>
+</body>
+</html>
