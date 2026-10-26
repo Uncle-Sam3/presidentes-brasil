@@ -5,8 +5,10 @@ const ctx = {};
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync("js/presidents.js", "utf8"), ctx);
 vm.runInContext(fs.readFileSync("js/schemes.js", "utf8"), ctx);
+vm.runInContext(fs.readFileSync("js/orient.js", "utf8"), ctx);
+vm.runInContext(fs.readFileSync("js/photos.js", "utf8"), ctx);
 
-const { PRESIDENTS, ERAS, SCHEMES } = ctx;
+const { PRESIDENTS, ERAS, SCHEMES, ORIENT, ORIENT_SCALE } = ctx;
 const errors = [];
 
 if (PRESIDENTS.length !== 44) errors.push("esperados 44 mandatos, veio " + PRESIDENTS.length);
@@ -21,6 +23,9 @@ PRESIDENTS.forEach((p) => {
     if (!p[k]) errors.push(p.id + " sem " + k);
   });
   if (!ERAS.some((e) => e.id === p.era)) errors.push(p.id + " era inválida");
+  if (!ORIENT[p.id]) errors.push(p.id + " sem orientação");
+  else if (!ORIENT_SCALE.some((s) => s.id === ORIENT[p.id].orient)) errors.push(p.id + " orientação inválida");
+  if (p.party === "PSDB" && ORIENT[p.id] && ORIENT[p.id].orient !== "centro") errors.push(p.id + " PSDB fora de centro");
   p.cases.forEach((c) => {
     ["title", "status", "statusLabel", "summary", "involved", "amount", "legal"].forEach((k) => {
       if (!c[k]) errors.push(p.id + "/" + c.id + " sem " + k);

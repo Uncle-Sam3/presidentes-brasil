@@ -34,11 +34,15 @@ Não é preciso Node, bundler nem gerar a pasta `docs`. Se preferir servir a par
 
 | Arquivo | Função |
 | --- | --- |
-| `index.html` | Linha do tempo e ficha de cada mandato |
+| `index.html` | Linha do tempo horizontal |
+| `presidente.html` | Ficha de cada mandato (`?id=`) |
 | `esquemas.html` | Diagramas interativos |
-| `metodologia.html` | Critérios, vocabulário jurídico e limites |
+| `metodologia.html` | Critérios, vocabulário jurídico, orientação e créditos dos retratos |
 | `js/presidents.js` | Dados dos mandatos, casos e fontes |
+| `js/orient.js` | Sigla e rótulo de orientação de cada mandato |
+| `js/photos.js` | Retratos e licenças |
 | `js/schemes.js` | Dados dos diagramas |
+| `img/presidentes/` | Retratos baixados do Wikimedia Commons |
 | `css/style.css` | Visual |
 
 ## Atualizar um caso

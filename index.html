@@ -47,20 +47,15 @@
             <button class="chip" type="button" data-filter="sem" aria-pressed="false">Sem caso pessoal</button>
           </div>
         </div>
-        <div class="legend" aria-hidden="true">
-          <span class="pill condenado">condenado</span>
-          <span class="pill absolvido">absolvido</span>
-          <span class="pill anulado">anulado</span>
-          <span class="pill prescrito">prescrito</span>
-          <span class="pill trancado">trancado / arquivado</span>
-          <span class="pill investigado">investigado ou denunciado</span>
-          <span class="pill politico">sanção política</span>
-          <span class="pill sem">sem caso pessoal</span>
+        <p class="legend-note">A cor do trecho segue a orientação ao lado do retrato. A escala é simplificada e foi escolhida pelo autor do site. A ficha de cada mandato abre no retrato.</p>
+        <ul class="orient-legend" id="orient-legend"></ul>
+        <div class="h-controls">
+          <button type="button" id="scroll-prev">Anos anteriores</button>
+          <button type="button" id="scroll-next">Anos seguintes</button>
         </div>
-        <div id="timeline"></div>
       </div>
+      <div id="timeline" class="h-scroll" tabindex="0" aria-label="Linha do tempo horizontal. Arraste, use a roda do mouse ou deslize para o lado."></div>
     </section>
-    <article class="view-detail wrap detail" id="view-mandato" hidden></article>
   </main>
   <footer class="footer">
     <div class="wrap">
@@ -70,6 +65,8 @@
   </footer>
   <script src="js/presidents.js"></script>
   <script src="js/schemes.js"></script>
+  <script src="js/orient.js"></script>
+  <script src="js/photos.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
